@@ -23,13 +23,29 @@ jobs:
                   | select(.price.totalPrice.discountPrice == 0)' \
             > free_games.json
 
-      - name: Convert JSON → Markdown
+      - name: Convert JSON → Markdown (rich cards)
         run: |
           echo "# Current Free Epic Games" > FREE_GAMES.md
           echo "" >> FREE_GAMES.md
 
-          jq -r '.title' free_games.json | while read -r title; do
-            echo "- $title" >> FREE_GAMES.md
+          jq -c '.[]' free_games.json | while read -r game; do
+            title=$(echo "$game" | jq -r '.title')
+            desc=$(echo "$game" | jq -r '.description')
+            slug=$(echo "$game" | jq -r '.urlSlug // .productSlug // empty')
+            img=$(echo "$game" | jq -r '.keyImages[0].url')
+
+            # Build Epic store link
+            link="https://store.epicgames.com/p/$slug"
+
+            {
+              echo "## $title"
+              echo "[![$title]($img)]($link)"
+              echo ""
+              echo "$desc"
+              echo ""
+              echo "---"
+              echo ""
+            } >> FREE_GAMES.md
           done
 
       - name: Commit changes
@@ -41,6 +57,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Updated free Epic Games list"
+            git commit -m "Updated free Epic Games list (rich cards)"
             git push
           fi
