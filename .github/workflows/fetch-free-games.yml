@@ -57,8 +57,12 @@ jobs:
             gbp=$(printf "%.2f" "$(echo "$usd * $USD_TO_GBP" | bc -l)")
             eur=$(printf "%.2f" "$(echo "$usd * $USD_TO_EUR" | bc -l)")
 
+            # Metadata identifiers
+            namespace=$(echo "$game" | jq -r '.catalogNs.mappings[0].namespace')
+            offerId=$(echo "$game" | jq -r '.catalogNs.mappings[0].offerId')
+
             # Fetch full metadata
-            metadata=$(curl -s "https://store.epicgames.com/api/products/$slug")
+            metadata=$(curl -s "https://store.epicgames.com/api/products/$namespace/$offerId")
 
             # Publisher
             publisher=$(echo "$metadata" | jq -r '.publisher // "Unknown Publisher"')
@@ -108,6 +112,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Add full metadata + multi-currency prices to FREE_GAMES.md"
+            git commit -m "Use namespace+offerId metadata API; add full metadata + multi-currency prices"
             git push
           fi
