@@ -47,41 +47,30 @@ jobs:
             gbp=$(printf "%.2f" "$(echo "$usd * $USD_TO_GBP" | bc -l)")
             eur=$(printf "%.2f" "$(echo "$usd * $USD_TO_EUR" | bc -l)")
 
-            # Try mappings first
-            namespace=$(echo "$game" | jq -r '.catalogNs.mappings[0].namespace // empty')
-            offerId=$(echo "$game" | jq -r '.catalogNs.mappings[0].offerId // empty')
+            # Catalog ID (always exists)
+            catalog_id=$(echo "$game" | jq -r '.id')
 
-            # If mappings are empty, fallback to catalogNs root
-            if [ -z "$namespace" ] || [ -z "$offerId" ]; then
-              namespace=$(echo "$game" | jq -r '.catalogNs.namespace // empty')
-              offerId=$(echo "$game" | jq -r '.catalogNs.offerId // empty')
-            fi
+            # Fetch full metadata from products/v2 API
+            metadata=$(curl -s "https://store.epicgames.com/api/products/v2?storeId=${catalog_id}")
 
-            # If still empty, skip
-            if [ -z "$namespace" ] || [ -z "$offerId" ]; then
-              echo "Skipping $title (no metadata identifiers)"
-              continue
-            fi
-
-            metadata=$(curl -s "https://store.epicgames.com/api/products/$namespace/$offerId")
-
+            # Skip if metadata is not valid JSON
             if ! echo "$metadata" | jq empty 2>/dev/null; then
               echo "Skipping $title (metadata not JSON)"
               continue
             fi
 
-            publisher=$(echo "$metadata" | jq -r '.publisher // "Unknown Publisher"')
-
-            release_raw=$(echo "$metadata" | jq -r '.releaseDate // empty')
+            # Extract metadata fields
+            publisher=$(echo "$metadata" | jq -r '.data.publisher // "Unknown Publisher"')
+            release_raw=$(echo "$metadata" | jq -r '.data.releaseDate // empty')
             release_date=$(date -d "$release_raw" +"%B %d, %Y" 2>/dev/null || echo "$release_raw")
 
-            genres=$(echo "$metadata" | jq -r '.genres[].name' 2>/dev/null | paste -sd ", " -)
+            genres=$(echo "$metadata" | jq -r '.data.genres[].name' 2>/dev/null | paste -sd ", " -)
             if [ -z "$genres" ]; then genres="Unknown"; fi
 
-            platforms=$(echo "$metadata" | jq -r '.platforms[].name' 2>/dev/null | paste -sd ", " -)
+            platforms=$(echo "$metadata" | jq -r '.data.platforms[].name' 2>/dev/null | paste -sd ", " -)
             if [ -z "$platforms" ]; then platforms="Unknown"; fi
 
-            age_rating=$(echo "$metadata" | jq -r '.ageRating // "Not Rated"')
+            age_rating=$(echo "$metadata" | jq -r '.data.ageRating // "Not Rated"')
 
             img=$(echo "$game" | jq -r '.keyImages[0].url')
 
@@ -112,6 +101,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Fix metadata lookup (dual-path); full metadata + multi-currency prices"
+            git commit -m "Use products/v2 metadata API; full metadata + multi-currency prices"
             git push
           fi
