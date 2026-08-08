@@ -2,8 +2,6 @@ name: Fetch Epic Free Games
 
 on:
   schedule:
-    # Epic refreshes free games every Thursday at ~15:00 UTC
-    # This runs at 16:00 UTC — one hour after the refresh
     - cron: "0 16 * * 4"
   workflow_dispatch:
 
@@ -18,58 +16,73 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch free games JSON (array output)
+      - name: Fetch free games list
         run: |
           curl -s https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions \
             | jq '[.data.Catalog.searchStore.elements[] 
                    | select(.price.totalPrice.discountPrice == 0)]' \
             > free_games.json
 
-      - name: Convert JSON → Markdown (full metadata)
+      - name: Build FREE_GAMES.md with full metadata
         run: |
           echo "# Current Free Epic Games" > FREE_GAMES.md
           echo "" >> FREE_GAMES.md
+
+          # Currency multipliers
+          USD_TO_AUD=1.50
+          USD_TO_GBP=0.78
+          USD_TO_EUR=0.92
 
           jq -c '.[]' free_games.json | while read -r game; do
             title=$(echo "$game" | jq -r '.title')
             desc=$(echo "$game" | jq -r '.description')
 
-            # Correct public store slug
+            # Correct store slug
             slug=$(echo "$game" | jq -r '.catalogNs.mappings[0].pageSlug // empty')
             if [ -z "$slug" ]; then
               slug=$(echo "$game" | jq -r '.urlSlug // .productSlug // empty')
             fi
 
             link="https://store.epicgames.com/p/$slug"
-            img=$(echo "$game" | jq -r '.keyImages[0].url')
 
             # Developer
             developer=$(echo "$game" | jq -r '.seller.name // "Unknown Developer"')
 
-            # Publisher
-            publisher=$(echo "$game" | jq -r '.publisherName // "Unknown Publisher"')
-
-            # Price (Epic stores prices in cents)
+            # Price (USD cents → USD)
             original_price=$(echo "$game" | jq -r '.price.totalPrice.originalPrice')
-            price=$(printf "$%.2f" "$(echo "$original_price / 100" | bc -l)")
+            usd=$(printf "%.2f" "$(echo "$original_price / 100" | bc -l)")
+
+            # Convert currencies
+            aud=$(printf "%.2f" "$(echo "$usd * $USD_TO_AUD" | bc -l)")
+            gbp=$(printf "%.2f" "$(echo "$usd * $USD_TO_GBP" | bc -l)")
+            eur=$(printf "%.2f" "$(echo "$usd * $USD_TO_EUR" | bc -l)")
+
+            # Fetch full metadata
+            metadata=$(curl -s "https://store.epicgames.com/api/products/$slug")
+
+            # Publisher
+            publisher=$(echo "$metadata" | jq -r '.publisher // "Unknown Publisher"')
 
             # Release date
-            release_raw=$(echo "$game" | jq -r '.effectiveDate')
+            release_raw=$(echo "$metadata" | jq -r '.releaseDate // empty')
             release_date=$(date -d "$release_raw" +"%B %d, %Y" 2>/dev/null || echo "$release_raw")
 
-            # Genres (tags)
-            genres=$(echo "$game" | jq -r '.tags[].name' | paste -sd ", " -)
+            # Genres
+            genres=$(echo "$metadata" | jq -r '.genres[].name' 2>/dev/null | paste -sd ", " -)
             if [ -z "$genres" ]; then genres="Unknown"; fi
 
-            # Supported platforms
-            platforms=$(echo "$game" | jq -r '.supportedPlatforms[]' | paste -sd ", " -)
+            # Platforms
+            platforms=$(echo "$metadata" | jq -r '.platforms[].name' 2>/dev/null | paste -sd ", " -)
             if [ -z "$platforms" ]; then platforms="Unknown"; fi
 
             # Age rating
-            age_rating=$(echo "$game" | jq -r '.ageGatings[0].rating // "Not Rated"')
+            age_rating=$(echo "$metadata" | jq -r '.ageRating // "Not Rated"')
+
+            # Image
+            img=$(echo "$game" | jq -r '.keyImages[0].url')
 
             {
-              echo "## [$title — $price]($link)"
+              echo "## [$title — \$${usd} USD; \$${aud} AUD; £${gbp} GBP; €${eur} EUR]($link)"
               echo "#### *By $developer*"
               echo "#### *Genre: $genres*"
               echo "#### *Release Date: $release_date*"
@@ -95,6 +108,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Add genre, release date, publisher, platforms, and age rating to FREE_GAMES.md cards"
+            git commit -m "Add full metadata + multi-currency prices to FREE_GAMES.md"
             git push
           fi
