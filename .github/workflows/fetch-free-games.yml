@@ -23,10 +23,10 @@ jobs:
                    | select(.price.totalPrice.discountPrice == 0)]' \
             > free_games.json
 
-      - name: Build FREE_GAMES_RAW.md
+      - name: Build FREE_GAMES.md
         run: |
-          echo "# Current Free Epic Games" > FREE_GAMES_RAW.md
-          echo "" >> FREE_GAMES_RAW.md
+          echo "# Current Free Epic Games" > FREE_GAMES.md
+          echo "" >> FREE_GAMES.md
 
           jq -c '.[]' free_games.json | while read -r game; do
             title=$(echo "$game" | jq -r '.title')
@@ -39,8 +39,12 @@ jobs:
 
             img=$(echo "$game" | jq -r '.keyImages[0].url')
 
+            # USD price (Epic always stores prices in USD cents)
+            cents=$(echo "$game" | jq -r '.price.totalPrice.originalPrice')
+            usd=$(printf "%.2f" "$(echo "$cents / 100" | bc -l)")
+
             {
-              echo "## [$title]($link)"
+              echo "## [$title — \$${usd} USD]($link)"
               echo "#### *By $developer*"
               echo ""
               echo "[![$title]($img)]($link)"
@@ -49,18 +53,18 @@ jobs:
               echo ""
               echo "---"
               echo ""
-            } >> FREE_GAMES_RAW.md
+            } >> FREE_GAMES.md
           done
 
       - name: Commit changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add FREE_GAMES_RAW.md free_games.json
+          git add FREE_GAMES.md free_games.json
 
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Fetch free games (raw version)"
+            git commit -m "Fetch free games (USD only)"
             git push
           fi
