@@ -2,7 +2,9 @@ name: Fetch Epic Free Games
 
 on:
   schedule:
-    - cron: "0 0 * * 4"   # Every Thursday UTC (Epic refresh day)
+    # Epic refreshes free games every Thursday at ~15:00 UTC
+    # This runs at 16:00 UTC — one hour after the refresh
+    - cron: "0 16 * * 4"
   workflow_dispatch:
 
 permissions:
@@ -34,7 +36,6 @@ jobs:
             slug=$(echo "$game" | jq -r '.urlSlug // .productSlug // empty')
             img=$(echo "$game" | jq -r '.keyImages[0].url')
 
-            # Build Epic store link
             link="https://store.epicgames.com/p/$slug"
 
             {
@@ -57,6 +58,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Updated free Epic Games list (rich cards)"
+            git commit -m "Update workflow timing to run after Epic’s weekly refresh and generate rich Markdown cards"
             git push
           fi
