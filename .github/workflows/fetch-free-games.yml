@@ -58,11 +58,23 @@ jobs:
             eur=$(printf "%.2f" "$(echo "$usd * $USD_TO_EUR" | bc -l)")
 
             # Metadata identifiers
-            namespace=$(echo "$game" | jq -r '.catalogNs.mappings[0].namespace')
-            offerId=$(echo "$game" | jq -r '.catalogNs.mappings[0].offerId')
+            namespace=$(echo "$game" | jq -r '.catalogNs.mappings[0].namespace // empty')
+            offerId=$(echo "$game" | jq -r '.catalogNs.mappings[0].offerId // empty')
+
+            # Skip games with missing metadata fields
+            if [ -z "$namespace" ] || [ -z "$offerId" ]; then
+              echo "Skipping $title (missing namespace/offerId)"
+              continue
+            fi
 
             # Fetch full metadata
             metadata=$(curl -s "https://store.epicgames.com/api/products/$namespace/$offerId")
+
+            # Skip if metadata is not valid JSON
+            if ! echo "$metadata" | jq empty 2>/dev/null; then
+              echo "Skipping $title (metadata not JSON)"
+              continue
+            fi
 
             # Publisher
             publisher=$(echo "$metadata" | jq -r '.publisher // "Unknown Publisher"')
