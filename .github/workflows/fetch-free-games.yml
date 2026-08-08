@@ -23,7 +23,7 @@ jobs:
                    | select(.price.totalPrice.discountPrice == 0)]' \
             > free_games.json
 
-      - name: Build FREE_GAMES.md with full metadata
+      - name: Build FREE_GAMES.md
         run: |
           echo "# Current Free Epic Games" > FREE_GAMES.md
           echo "" >> FREE_GAMES.md
@@ -47,41 +47,11 @@ jobs:
             gbp=$(printf "%.2f" "$(echo "$usd * $USD_TO_GBP" | bc -l)")
             eur=$(printf "%.2f" "$(echo "$usd * $USD_TO_EUR" | bc -l)")
 
-            # Catalog ID (always exists)
-            catalog_id=$(echo "$game" | jq -r '.id')
-
-            # Fetch full metadata from products/v2 API
-            metadata=$(curl -s "https://store.epicgames.com/api/products/v2?storeId=${catalog_id}")
-
-            # Skip if metadata is not valid JSON
-            if ! echo "$metadata" | jq empty 2>/dev/null; then
-              echo "Skipping $title (metadata not JSON)"
-              continue
-            fi
-
-            # Extract metadata fields
-            publisher=$(echo "$metadata" | jq -r '.data.publisher // "Unknown Publisher"')
-            release_raw=$(echo "$metadata" | jq -r '.data.releaseDate // empty')
-            release_date=$(date -d "$release_raw" +"%B %d, %Y" 2>/dev/null || echo "$release_raw")
-
-            genres=$(echo "$metadata" | jq -r '.data.genres[].name' 2>/dev/null | paste -sd ", " -)
-            if [ -z "$genres" ]; then genres="Unknown"; fi
-
-            platforms=$(echo "$metadata" | jq -r '.data.platforms[].name' 2>/dev/null | paste -sd ", " -)
-            if [ -z "$platforms" ]; then platforms="Unknown"; fi
-
-            age_rating=$(echo "$metadata" | jq -r '.data.ageRating // "Not Rated"')
-
             img=$(echo "$game" | jq -r '.keyImages[0].url')
 
             {
               echo "## [$title — \$${usd} USD; \$${aud} AUD; £${gbp} GBP; €${eur} EUR]($link)"
               echo "#### *By $developer*"
-              echo "#### *Genre: $genres*"
-              echo "#### *Release Date: $release_date*"
-              echo "#### *Publisher: $publisher*"
-              echo "#### *Platforms: $platforms*"
-              echo "#### *Age Rating: $age_rating*"
               echo ""
               echo "[![$title]($img)]($link)"
               echo ""
@@ -101,6 +71,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Use products/v2 metadata API; full metadata + multi-currency prices"
+            git commit -m "Generate free games list without metadata API"
             git push
           fi
