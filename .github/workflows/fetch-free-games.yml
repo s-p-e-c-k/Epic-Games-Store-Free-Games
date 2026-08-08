@@ -25,7 +25,7 @@ jobs:
                    | select(.price.totalPrice.discountPrice == 0)]' \
             > free_games.json
 
-      - name: Convert JSON → Markdown (real Epic Store links)
+      - name: Convert JSON → Markdown (price + developer + real links)
         run: |
           echo "# Current Free Epic Games" > FREE_GAMES.md
           echo "" >> FREE_GAMES.md
@@ -44,10 +44,19 @@ jobs:
 
             img=$(echo "$game" | jq -r '.keyImages[0].url')
 
+            # Developer name
+            developer=$(echo "$game" | jq -r '.seller.name // "Unknown Developer"')
+
+            # Price (Epic stores prices in cents)
+            original_price=$(echo "$game" | jq -r '.price.totalPrice.originalPrice')
+            price=$(printf "$%.2f" "$(echo "$original_price / 100" | bc -l)")
+
             link="https://store.epicgames.com/p/$slug"
 
             {
-              echo "## [$title]($link)"
+              echo "## [$title — $price]($link)"
+              echo "#### *By $developer*"
+              echo ""
               echo "[![$title]($img)]($link)"
               echo ""
               echo "$desc"
@@ -66,6 +75,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Use correct Epic Store pageSlug for real game links in FREE_GAMES.md"
+            git commit -m "Add price and developer info to FREE_GAMES.md cards"
             git push
           fi
