@@ -18,11 +18,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch free games JSON
+      - name: Fetch free games JSON (array output)
         run: |
           curl -s https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions \
-            | jq '.data.Catalog.searchStore.elements[] 
-                  | select(.price.totalPrice.discountPrice == 0)' \
+            | jq '[.data.Catalog.searchStore.elements[] 
+                   | select(.price.totalPrice.discountPrice == 0)]' \
             > free_games.json
 
       - name: Convert JSON → Markdown (rich cards)
@@ -58,6 +58,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Update workflow timing to run after Epic’s weekly refresh and generate rich Markdown cards"
+            git commit -m "Fix JSON output to array format and correct Markdown generation loop"
             git push
           fi
