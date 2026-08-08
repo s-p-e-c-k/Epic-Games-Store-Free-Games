@@ -53,18 +53,11 @@ jobs:
             gbp=$(printf "%.2f" "$(echo "$usd * $USD_TO_GBP" | bc -l)")
             eur=$(printf "%.2f" "$(echo "$usd * $USD_TO_EUR" | bc -l)")
 
-            # Correct metadata identifiers
-            namespace=$(echo "$game" | jq -r '.namespace // empty')
-            offerId=$(echo "$game" | jq -r '.offerId // empty')
+            # Catalog ID (always exists)
+            catalog_id=$(echo "$game" | jq -r '.id')
 
-            # Skip if missing metadata identifiers
-            if [ -z "$namespace" ] || [ -z "$offerId" ]; then
-              echo "Skipping $title (missing namespace/offerId)"
-              continue
-            fi
-
-            # Fetch full metadata
-            metadata=$(curl -s "https://store.epicgames.com/api/products/$namespace/$offerId")
+            # Fetch full metadata from catalog API
+            metadata=$(curl -s "https://store.epicgames.com/api/catalog/${catalog_id}")
 
             # Skip if metadata is not valid JSON
             if ! echo "$metadata" | jq empty 2>/dev/null; then
@@ -120,6 +113,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Fix metadata identifiers; add full metadata + multi-currency prices"
+            git commit -m "Fix metadata lookup using catalog API; full metadata + multi-currency prices"
             git push
           fi
