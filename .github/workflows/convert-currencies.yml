@@ -1,0 +1,73 @@
+name: Convert Currency Rates
+
+on:
+  workflow_run:
+    workflows: ["Fetch Epic Free Games"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+jobs:
+  convert-currency:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Load raw file
+        run: |
+          cp FREE_GAMES_RAW.md FREE_GAMES.md
+
+      - name: Fetch live currency rates
+        run: |
+          rates=$(curl -s "https://api.exchangerate.host/latest?base=USD")
+          echo "USD_TO_AUD=$(echo "$rates" | jq -r '.rates.AUD')" >> $GITHUB_ENV
+          echo "USD_TO_GBP=$(echo "$rates" | jq -r '.rates.GBP')" >> $GITHUB_ENV
+          echo "USD_TO_EUR=$(echo "$rates" | jq -r '.rates.EUR')" >> $GITHUB_ENV
+
+      - name: Insert currency conversions
+        run: |
+          awk -v aud="$USD_TO_AUD" -v gbp="$USD_TO_GBP" -v eur="$USD_TO_EUR" '
+            /^## 
+
+\[/ {
+              # Extract title
+              match($0, /
+
+\[(.*?)\]
+
+/, t)
+              title=t[1]
+
+              # Extract USD price from free_games.json
+              cmd="jq -r \".[] | select(.title==\\\"" title "\\\") | .price.totalPrice.originalPrice\" free_games.json"
+              cmd | getline cents
+              close(cmd)
+
+              usd = cents / 100
+              audp = sprintf("%.2f", usd * aud)
+              gbpp = sprintf("%.2f", usd * gbp)
+              eurp = sprintf("%.2f", usd * eur)
+
+              # Replace line with Option A format
+              print "## [" title " — $" usd " USD; $" audp " AUD; £" gbpp " GBP; €" eurp " EUR]"
+            }
+            !/^## 
+
+\[/ { print }
+          ' FREE_GAMES.md > tmp && mv tmp FREE_GAMES.md
+
+      - name: Commit final file
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add FREE_GAMES.md
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Add live currency conversions to FREE_GAMES.md"
+            git push
+          fi
