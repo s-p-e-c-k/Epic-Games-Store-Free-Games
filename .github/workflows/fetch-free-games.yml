@@ -25,7 +25,7 @@ jobs:
                    | select(.price.totalPrice.discountPrice == 0)]' \
             > free_games.json
 
-      - name: Convert JSON → Markdown (rich cards)
+      - name: Convert JSON → Markdown (rich cards with linked titles)
         run: |
           echo "# Current Free Epic Games" > FREE_GAMES.md
           echo "" >> FREE_GAMES.md
@@ -39,7 +39,7 @@ jobs:
             link="https://store.epicgames.com/p/$slug"
 
             {
-              echo "## $title"
+              echo "## [$title]($link)"
               echo "[![$title]($img)]($link)"
               echo ""
               echo "$desc"
@@ -58,6 +58,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Fix JSON output to array format and correct Markdown generation loop"
+            git commit -m "Make game titles clickable links to their Epic Store pages in FREE_GAMES.md"
             git push
           fi
