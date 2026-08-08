@@ -30,13 +30,13 @@ jobs:
       - name: Insert currency conversions
         run: |
           while IFS= read -r line; do
-            # Detect title lines starting with "## ["
             if [[ "$line" == "## ["* ]]; then
-              title=$(echo "$line" | sed -E 's/^## 
+              # SAFE sed expression (YAML will NOT parse it)
+              title=$(echo "$line" | sed -E "s/^## \
 
-\[(.*)\]
+\[(.*)\\]
 
-.*/\1/')
+.*/\\1/")
 
               cents=$(jq -r ".[] | select(.title==\"$title\") | .price.totalPrice.originalPrice" free_games.json)
               usd=$(echo "$cents / 100" | bc -l)
