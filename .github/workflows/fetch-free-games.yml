@@ -28,7 +28,6 @@ jobs:
           echo "# Current Free Epic Games" > FREE_GAMES.md
           echo "" >> FREE_GAMES.md
 
-          # Currency multipliers
           USD_TO_AUD=1.50
           USD_TO_GBP=0.78
           USD_TO_EUR=0.92
@@ -37,53 +36,53 @@ jobs:
             title=$(echo "$game" | jq -r '.title')
             desc=$(echo "$game" | jq -r '.description')
 
-            # Store page slug
             slug=$(echo "$game" | jq -r '.productSlug // .urlSlug // empty')
             link="https://store.epicgames.com/p/$slug"
 
-            # Developer
             developer=$(echo "$game" | jq -r '.seller.name // "Unknown Developer"')
 
-            # Price (USD cents → USD)
             original_price=$(echo "$game" | jq -r '.price.totalPrice.originalPrice')
             usd=$(printf "%.2f" "$(echo "$original_price / 100" | bc -l)")
-
-            # Convert currencies
             aud=$(printf "%.2f" "$(echo "$usd * $USD_TO_AUD" | bc -l)")
             gbp=$(printf "%.2f" "$(echo "$usd * $USD_TO_GBP" | bc -l)")
             eur=$(printf "%.2f" "$(echo "$usd * $USD_TO_EUR" | bc -l)")
 
-            # Catalog ID (always exists)
-            catalog_id=$(echo "$game" | jq -r '.id')
+            # Try mappings first
+            namespace=$(echo "$game" | jq -r '.catalogNs.mappings[0].namespace // empty')
+            offerId=$(echo "$game" | jq -r '.catalogNs.mappings[0].offerId // empty')
 
-            # Fetch full metadata from catalog API
-            metadata=$(curl -s "https://store.epicgames.com/api/catalog/${catalog_id}")
+            # If mappings are empty, fallback to catalogNs root
+            if [ -z "$namespace" ] || [ -z "$offerId" ]; then
+              namespace=$(echo "$game" | jq -r '.catalogNs.namespace // empty')
+              offerId=$(echo "$game" | jq -r '.catalogNs.offerId // empty')
+            fi
 
-            # Skip if metadata is not valid JSON
+            # If still empty, skip
+            if [ -z "$namespace" ] || [ -z "$offerId" ]; then
+              echo "Skipping $title (no metadata identifiers)"
+              continue
+            fi
+
+            metadata=$(curl -s "https://store.epicgames.com/api/products/$namespace/$offerId")
+
             if ! echo "$metadata" | jq empty 2>/dev/null; then
               echo "Skipping $title (metadata not JSON)"
               continue
             fi
 
-            # Publisher
             publisher=$(echo "$metadata" | jq -r '.publisher // "Unknown Publisher"')
 
-            # Release date
             release_raw=$(echo "$metadata" | jq -r '.releaseDate // empty')
             release_date=$(date -d "$release_raw" +"%B %d, %Y" 2>/dev/null || echo "$release_raw")
 
-            # Genres
             genres=$(echo "$metadata" | jq -r '.genres[].name' 2>/dev/null | paste -sd ", " -)
             if [ -z "$genres" ]; then genres="Unknown"; fi
 
-            # Platforms
             platforms=$(echo "$metadata" | jq -r '.platforms[].name' 2>/dev/null | paste -sd ", " -)
             if [ -z "$platforms" ]; then platforms="Unknown"; fi
 
-            # Age rating
             age_rating=$(echo "$metadata" | jq -r '.ageRating // "Not Rated"')
 
-            # Image
             img=$(echo "$game" | jq -r '.keyImages[0].url')
 
             {
@@ -113,6 +112,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Fix metadata lookup using catalog API; full metadata + multi-currency prices"
+            git commit -m "Fix metadata lookup (dual-path); full metadata + multi-currency prices"
             git push
           fi
