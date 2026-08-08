@@ -37,12 +37,8 @@ jobs:
             title=$(echo "$game" | jq -r '.title')
             desc=$(echo "$game" | jq -r '.description')
 
-            # Correct store slug
-            slug=$(echo "$game" | jq -r '.catalogNs.mappings[0].pageSlug // empty')
-            if [ -z "$slug" ]; then
-              slug=$(echo "$game" | jq -r '.urlSlug // .productSlug // empty')
-            fi
-
+            # Store page slug
+            slug=$(echo "$game" | jq -r '.productSlug // .urlSlug // empty')
             link="https://store.epicgames.com/p/$slug"
 
             # Developer
@@ -57,11 +53,11 @@ jobs:
             gbp=$(printf "%.2f" "$(echo "$usd * $USD_TO_GBP" | bc -l)")
             eur=$(printf "%.2f" "$(echo "$usd * $USD_TO_EUR" | bc -l)")
 
-            # Metadata identifiers
-            namespace=$(echo "$game" | jq -r '.catalogNs.mappings[0].namespace // empty')
-            offerId=$(echo "$game" | jq -r '.catalogNs.mappings[0].offerId // empty')
+            # Correct metadata identifiers
+            namespace=$(echo "$game" | jq -r '.namespace // empty')
+            offerId=$(echo "$game" | jq -r '.offerId // empty')
 
-            # Skip games with missing metadata fields
+            # Skip if missing metadata identifiers
             if [ -z "$namespace" ] || [ -z "$offerId" ]; then
               echo "Skipping $title (missing namespace/offerId)"
               continue
@@ -124,6 +120,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Use namespace+offerId metadata API; add full metadata + multi-currency prices"
+            git commit -m "Fix metadata identifiers; add full metadata + multi-currency prices"
             git push
           fi
