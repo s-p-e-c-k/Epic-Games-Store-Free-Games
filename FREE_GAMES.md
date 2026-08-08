@@ -1,6 +1,6 @@
 # Current Free Epic Games
 
-## [Beacon Pines — $19.99 USD; $29.99 AUD; £15.59 GBP; €18.39 EUR](https://store.epicgames.com/p/9e9a438c651a49799c3ddd94a0c3f4c0)
+## [Beacon Pines — $19.99 USD; $0.00 AUD; £0.00 GBP; €0.00 EUR]
 #### *By Surprise Attack Pty Ltd DBA Fellow Traveller Games*
 
 [![Beacon Pines](https://cdn1.epicgames.com/spt-assets/c89a3b955d704c3c97ddd2aba5265a38/beacon-pines-offer-1l6ky.jpg)](https://store.epicgames.com/p/9e9a438c651a49799c3ddd94a0c3f4c0)
@@ -9,7 +9,7 @@ Beacon Pines is a cute and creepy adventure game. Sneak out late, make new frien
 
 ---
 
-## [We Were Here Together — $12.99 USD; $19.49 AUD; £10.13 GBP; €11.95 EUR](https://store.epicgames.com/p/a4bed38482a44c3d89029b0dbba42087)
+## [We Were Here Together — $12.99 USD; $0.00 AUD; £0.00 GBP; €0.00 EUR]
 #### *By TMG Studios B.V.*
 
 [![We Were Here Together](https://cdn1.epicgames.com/spt-assets/f24f7e149dc64df18f14dfab4f6dae4d/we-were-here-together-1w9jc.png)](https://store.epicgames.com/p/a4bed38482a44c3d89029b0dbba42087)
