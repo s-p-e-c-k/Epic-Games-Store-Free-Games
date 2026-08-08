@@ -25,7 +25,7 @@ jobs:
                    | select(.price.totalPrice.discountPrice == 0)]' \
             > free_games.json
 
-      - name: Convert JSON → Markdown (price + developer + real links)
+      - name: Convert JSON → Markdown (full metadata)
         run: |
           echo "# Current Free Epic Games" > FREE_GAMES.md
           echo "" >> FREE_GAMES.md
@@ -36,26 +36,46 @@ jobs:
 
             # Correct public store slug
             slug=$(echo "$game" | jq -r '.catalogNs.mappings[0].pageSlug // empty')
-
-            # Fallback if pageSlug is missing
             if [ -z "$slug" ]; then
               slug=$(echo "$game" | jq -r '.urlSlug // .productSlug // empty')
             fi
 
+            link="https://store.epicgames.com/p/$slug"
             img=$(echo "$game" | jq -r '.keyImages[0].url')
 
-            # Developer name
+            # Developer
             developer=$(echo "$game" | jq -r '.seller.name // "Unknown Developer"')
+
+            # Publisher
+            publisher=$(echo "$game" | jq -r '.publisherName // "Unknown Publisher"')
 
             # Price (Epic stores prices in cents)
             original_price=$(echo "$game" | jq -r '.price.totalPrice.originalPrice')
             price=$(printf "$%.2f" "$(echo "$original_price / 100" | bc -l)")
 
-            link="https://store.epicgames.com/p/$slug"
+            # Release date
+            release_raw=$(echo "$game" | jq -r '.effectiveDate')
+            release_date=$(date -d "$release_raw" +"%B %d, %Y" 2>/dev/null || echo "$release_raw")
+
+            # Genres (tags)
+            genres=$(echo "$game" | jq -r '.tags[].name' | paste -sd ", " -)
+            if [ -z "$genres" ]; then genres="Unknown"; fi
+
+            # Supported platforms
+            platforms=$(echo "$game" | jq -r '.supportedPlatforms[]' | paste -sd ", " -)
+            if [ -z "$platforms" ]; then platforms="Unknown"; fi
+
+            # Age rating
+            age_rating=$(echo "$game" | jq -r '.ageGatings[0].rating // "Not Rated"')
 
             {
               echo "## [$title — $price]($link)"
               echo "#### *By $developer*"
+              echo "#### *Genre: $genres*"
+              echo "#### *Release Date: $release_date*"
+              echo "#### *Publisher: $publisher*"
+              echo "#### *Platforms: $platforms*"
+              echo "#### *Age Rating: $age_rating*"
               echo ""
               echo "[![$title]($img)]($link)"
               echo ""
@@ -75,6 +95,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Add price and developer info to FREE_GAMES.md cards"
+            git commit -m "Add genre, release date, publisher, platforms, and age rating to FREE_GAMES.md cards"
             git push
           fi
