@@ -29,35 +29,26 @@ jobs:
 
       - name: Insert currency conversions
         run: |
-          awk -v aud="$USD_TO_AUD" -v gbp="$USD_TO_GBP" -v eur="$USD_TO_EUR" '
-            /^## 
+          while IFS= read -r line; do
+            if [[ "$line" =~ ^##\ 
 
-\[/ {
-              # Extract title
-              match($0, /
+\[(.*)\]
 
-\[(.*?)\]
+ ]]; then
+              title="${BASH_REMATCH[1]}"
 
-/, t)
-              title=t[1]
+              cents=$(jq -r ".[] | select(.title==\"$title\") | .price.totalPrice.originalPrice" free_games.json)
+              usd=$(echo "$cents / 100" | bc -l)
 
-              # Extract USD price from free_games.json
-              cmd="jq -r \".[] | select(.title==\\\"" title "\\\") | .price.totalPrice.originalPrice\" free_games.json"
-              cmd | getline cents
-              close(cmd)
+              audp=$(printf "%.2f" "$(echo "$usd * $USD_TO_AUD" | bc -l)")
+              gbpp=$(printf "%.2f" "$(echo "$usd * $USD_TO_GBP" | bc -l)")
+              eurp=$(printf "%.2f" "$(echo "$usd * $USD_TO_EUR" | bc -l)")
 
-              usd = cents / 100
-              audp = sprintf("%.2f", usd * aud)
-              gbpp = sprintf("%.2f", usd * gbp)
-              eurp = sprintf("%.2f", usd * eur)
-
-              # Replace line with Option A format
-              print "## [" title " — $" usd " USD; $" audp " AUD; £" gbpp " GBP; €" eurp " EUR]"
-            }
-            !/^## 
-
-\[/ { print }
-          ' FREE_GAMES.md > tmp && mv tmp FREE_GAMES.md
+              echo "## [$title — \$${usd} USD; \$${audp} AUD; £${gbpp} GBP; €${eurp} EUR]"
+            else
+              echo "$line"
+            fi
+          done < FREE_GAMES.md > tmp && mv tmp FREE_GAMES.md
 
       - name: Commit final file
         run: |
