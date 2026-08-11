@@ -57,6 +57,12 @@
 <div id="content">Loading free games…</div>
 
 <script>
+marked.setOptions({
+    breaks: true,
+    mangle: false,
+    headerIds: false
+});
+
 fetch("FREE_GAMES.md")
     .then(res => res.text())
     .then(md => {
