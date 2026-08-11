@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Epic Games Store Free Games</title>
 
-    <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
-
-    <!-- Markdown Renderer -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
     <style>
@@ -53,31 +50,9 @@
             border-top: 1px solid #333;
             margin: 30px 0;
         }
-
-        #back {
-            position: fixed;
-            top: 15px;
-            left: 15px;
-            padding: 10px 18px;
-            background: rgba(255, 0, 0, 0.55);
-            color: #fff;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 18px;
-            font-weight: 600;
-            letter-spacing: 0.5px;
-            transition: background 0.2s, transform 0.2s;
-        }
-
-        #back:hover {
-            background: rgba(255, 0, 0, 0.75);
-            transform: scale(1.05);
-        }
     </style>
 </head>
 <body>
-
-<div id="back" onclick="history.back()">← Back</div>
 
 <div id="content">Loading free games…</div>
 
@@ -88,7 +63,7 @@ fetch("FREE_GAMES.md")
         document.getElementById("content").innerHTML = marked.parse(md);
     })
     .catch(err => {
-        document.getElementById("content").innerHTML = 
+        document.getElementById("content").innerHTML =
             "<p style='color:red;'>Failed to load FREE_GAMES.md</p>";
     });
 </script>
