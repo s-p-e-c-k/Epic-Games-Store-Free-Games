@@ -1,11 +1,11 @@
 # Current Free Epic Games
 
-## [Caravan SandWitch — $24.99 USD](https://store.epicgames.com/p/70e9a8a90305449a88a38b708399e605)
-#### *By Plug In Digital SAS*
+## [Cardpocalypse Standard Edition — $24.99 USD](https://store.epicgames.com/p/cardpocalypse/home)
+#### *By Gambrinous*
 
-[![Caravan SandWitch](https://cdn1.epicgames.com/spt-assets/95b9a9a220e8483c8c1a70ad692de4b3/caravan-sandwitch-1uz0l.jpg)](https://store.epicgames.com/p/70e9a8a90305449a88a38b708399e605)
+[![Cardpocalypse Standard Edition](https://cdn1.epicgames.com/offer/2bfd5ca43ef443739ada168e017e1b78/s1_2560x1440-8d68e37943d666ad0f05093481c4d7df)](https://store.epicgames.com/p/cardpocalypse/home)
 
-Embark on a journey across vast landscapes in Caravan SandWitch, a captivating narrative-driven exploration adventure.
+10-year old Jess accidentally gets everybody's favorite collectible card game banned in Dudsdale Elementary - even worse, it’s her first day! But when troubles arise and mutants from the game start to come to life, and it’s up to Jess and her friends to stop them. Become a Meg...
 
 ---
 
