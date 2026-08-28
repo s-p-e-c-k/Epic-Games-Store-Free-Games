@@ -1,20 +1,20 @@
 # Current Free Epic Games
 
-## [Cardpocalypse Standard Edition — $24.99 USD](https://store.epicgames.com/p/cardpocalypse/home)
-#### *By Gambrinous*
+## [Breathedge — $24.99 USD](https://store.epicgames.com/p/breathedge)
+#### *By Hypetrain Digital*
 
-[![Cardpocalypse Standard Edition](https://cdn1.epicgames.com/offer/2bfd5ca43ef443739ada168e017e1b78/s1_2560x1440-8d68e37943d666ad0f05093481c4d7df)](https://store.epicgames.com/p/cardpocalypse/home)
+[![Breathedge](https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/egs-breathedge-redruinssoftworks-s1-2560x1440-76fd08cd9c2d-2560x1440-783424f6d4a7f32a0e75fc074f2f928e.jpg)](https://store.epicgames.com/p/breathedge)
 
-10-year old Jess accidentally gets everybody's favorite collectible card game banned in Dudsdale Elementary - even worse, it’s her first day! But when troubles arise and mutants from the game start to come to life, and it’s up to Jess and her friends to stop them. Become a Meg...
+Survive in outer space! Together with your immortal chicken, discover the truth behind your sudden spaceship crash. Craft tools, pilot vehicles, and even control space stations to survive and explore the wreckage.
 
 ---
 
-## [Epic Mage Bundle — $0.00 USD](https://store.epicgames.com/p/epic-mage-bundle)
-#### *By Sandbox Interactive GmbH*
+## [Rival Stars Horse Racing : Desktop Edition — $24.99 USD](https://store.epicgames.com/p/c27af3c6ec3a47afb720e580138de63e)
+#### *By Prodigy Design Ltd*
 
-[![Epic Mage Bundle](https://cdn1.epicgames.com/spt-assets/92837229023341268267ff64cae425a5/albion-online-7k7df.png)](https://store.epicgames.com/p/epic-mage-bundle)
+[![Rival Stars Horse Racing : Desktop Edition](https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-scu1x.jpg)](https://store.epicgames.com/p/c27af3c6ec3a47afb720e580138de63e)
 
-Claim a magical Free Gift valued at more than $55! Enhance your Albion journey with enchanted vanity items, two unique mount skins, and a treasure trove of essential progression rewards.
+With stunning, realistic horses, an in-depth breeding system, and a range of exciting game modes, Rival Stars Horse Racing offers horse fans the ultimate racing and riding experience. Take the reins and become an equestrian legend!
 
 ---
 
