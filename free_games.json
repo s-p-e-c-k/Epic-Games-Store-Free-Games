@@ -1,293 +1,88 @@
 [
   {
-    "title": "Breathedge",
-    "id": "8401414902e84f2cb9afa9142f051d32",
-    "namespace": "08ae29e4f70a4b62aa055e383381aa82",
-    "description": "Survive in outer space! Together with your immortal chicken, discover the truth behind your sudden spaceship crash. Craft tools, pilot vehicles, and even control space stations to survive and explore the wreckage.",
-    "effectiveDate": "2021-02-25T18:00:00.000Z",
+    "title": "Alone With You",
+    "id": "b8cc76ce7d6645f0a282b843a072cc78",
+    "namespace": "cb87ac984c3c4c19b0a4e3e89048f187",
+    "description": "ALONE WITH YOU is a sci-fi point-and-click adventure game that tells a rich story about relationships. You're the last survivor of a doomed space colony, trying to escape a planet before it implodes around you.",
+    "effectiveDate": "2026-09-03T15:00:00.000Z",
     "offerType": "BASE_GAME",
     "expiryDate": null,
-    "viewableDate": "2021-02-09T17:00:00.000Z",
+    "viewableDate": "2026-08-27T15:00:00.000Z",
     "status": "ACTIVE",
     "isCodeRedemptionOnly": false,
     "keyImages": [
       {
         "type": "OfferImageWide",
-        "url": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/egs-breathedge-redruinssoftworks-s1-2560x1440-76fd08cd9c2d-2560x1440-783424f6d4a7f32a0e75fc074f2f928e.jpg"
-      },
-      {
-        "type": "DieselStoreFrontWide",
-        "url": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/egs-breathedge-redruinssoftworks-s1-2560x1440-76fd08cd9c2d-2560x1440-783424f6d4a7f32a0e75fc074f2f928e.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-cllc3.png"
       },
       {
         "type": "OfferImageTall",
-        "url": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/EGS_Breathedge_RedRuinsSoftworks_S2-1200x1600-c0559585221ea11c9d48273c3a79b1ba.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-ven8l.png"
       },
       {
         "type": "Thumbnail",
-        "url": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/EGS_Breathedge_RedRuinsSoftworks_S2-1200x1600-c0559585221ea11c9d48273c3a79b1ba.jpg"
-      },
-      {
-        "type": "CodeRedemption_340x440",
-        "url": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/EGS_Breathedge_RedRuinsSoftworks_S2-1200x1600-c0559585221ea11c9d48273c3a79b1ba.jpg"
-      },
-      {
-        "type": "DieselStoreFrontTall",
-        "url": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/EGS_Breathedge_RedRuinsSoftworks_S2-1200x1600-c0559585221ea11c9d48273c3a79b1ba.jpg"
-      }
-    ],
-    "seller": {
-      "id": "o-p9883lvrpllhyd7sad6tgxv53mdyh5",
-      "name": "Hypetrain Digital"
-    },
-    "productSlug": "breathedge",
-    "urlSlug": "osmiumgeneralaudience",
-    "url": null,
-    "items": [
-      {
-        "id": "a07c7f65867e435dac277e0284e19a5a",
-        "namespace": "08ae29e4f70a4b62aa055e383381aa82"
-      }
-    ],
-    "customAttributes": [
-      {
-        "key": "publisherName",
-        "value": "HypeTrain Digital"
-      },
-      {
-        "key": "developerName",
-        "value": "RedRuins Softworks"
-      },
-      {
-        "key": "com.epicgames.app.productSlug",
-        "value": "breathedge"
-      }
-    ],
-    "categories": [
-      {
-        "path": "freegames"
-      },
-      {
-        "path": "games"
-      },
-      {
-        "path": "games/edition"
-      },
-      {
-        "path": "games/edition/base"
-      },
-      {
-        "path": "applications"
-      }
-    ],
-    "tags": [
-      {
-        "id": "1216"
-      },
-      {
-        "id": "1281"
-      },
-      {
-        "id": "1188"
-      },
-      {
-        "id": "21894"
-      },
-      {
-        "id": "9547"
-      },
-      {
-        "id": "9549"
-      },
-      {
-        "id": "21138"
-      },
-      {
-        "id": "21139"
-      },
-      {
-        "id": "21140"
-      },
-      {
-        "id": "21141"
-      },
-      {
-        "id": "1080"
-      },
-      {
-        "id": "1370"
-      },
-      {
-        "id": "21149"
-      },
-      {
-        "id": "21119"
-      }
-    ],
-    "catalogNs": {
-      "mappings": [
-        {
-          "pageSlug": "breathedge",
-          "pageType": "productHome"
-        }
-      ]
-    },
-    "offerMappings": [
-      {
-        "pageSlug": "breathedge",
-        "pageType": "productHome"
-      }
-    ],
-    "price": {
-      "totalPrice": {
-        "discountPrice": 0,
-        "originalPrice": 2499,
-        "voucherDiscount": 0,
-        "discount": 2499,
-        "currencyCode": "USD",
-        "currencyInfo": {
-          "decimals": 2
-        },
-        "fmtPrice": {
-          "originalPrice": "$24.99",
-          "discountPrice": "0",
-          "intermediatePrice": "0"
-        },
-        "dualPrice": null
-      },
-      "lineOffers": [
-        {
-          "appliedRules": [
-            {
-              "id": "71245a3e37b44dc18f5638c067cd5c07",
-              "endDate": "2026-09-03T15:00:00.000Z",
-              "discountSetting": {
-                "discountType": "PERCENTAGE"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    "promotions": {
-      "promotionalOffers": [
-        {
-          "promotionalOffers": [
-            {
-              "startDate": "2026-08-27T15:00:00.000Z",
-              "endDate": "2026-09-03T15:00:00.000Z",
-              "discountSetting": {
-                "discountType": "PERCENTAGE",
-                "discountPercentage": 0
-              }
-            }
-          ]
-        }
-      ],
-      "upcomingPromotionalOffers": [
-        {
-          "promotionalOffers": [
-            {
-              "startDate": "2026-09-03T15:00:00.000Z",
-              "endDate": "2026-09-17T15:00:00.000Z",
-              "discountSetting": {
-                "discountType": "PERCENTAGE",
-                "discountPercentage": 25
-              }
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "title": "Rival Stars Horse Racing : Desktop Edition",
-    "id": "8f1fcf01e32e4fd4b2ae0a9737992760",
-    "namespace": "f570d80aa4fe463ca53c4410d1c75e1e",
-    "description": "With stunning, realistic horses, an in-depth breeding system, and a range of exciting game modes, Rival Stars Horse Racing offers horse fans the ultimate racing and riding experience. Take the reins and become an equestrian legend!",
-    "effectiveDate": "2026-08-27T15:00:00.000Z",
-    "offerType": "BASE_GAME",
-    "expiryDate": null,
-    "viewableDate": "2026-08-20T11:00:00.000Z",
-    "status": "ACTIVE",
-    "isCodeRedemptionOnly": false,
-    "keyImages": [
-      {
-        "type": "OfferImageWide",
-        "url": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-scu1x.jpg"
-      },
-      {
-        "type": "OfferImageTall",
-        "url": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-lsten.jpg"
-      },
-      {
-        "type": "Thumbnail",
-        "url": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-lsten.jpg"
-      },
-      {
-        "type": "heroCarouselVideo",
-        "url": "com.epicgames.video.qs://8d478dfe-6a98-4a54-97d8-a709761d94b1?cover=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2F3355791f5b4740618adac242cf0dd46c%2Frival-stars-horse-racing-video-115rk.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-ven8l.png"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-1njwd.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-11zwt.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-rmjfy.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-13fzv.png"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-c7vbe.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-b7w4r.png"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-e13nq.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-itk1n.png"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-16qpj.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-iahcr.png"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-idro9.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-1nfe7.png"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-1t3c4.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-58pv7.png"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-aikqa.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-1ac9g.png"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-q6w7h.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-1kw8j.png"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-1kn2w.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-qiyky.png"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-11s9p.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-k43v3.png"
       },
       {
         "type": "OgImage",
-        "url": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-60xic.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-r94qs.jpg"
       }
     ],
     "seller": {
-      "id": "o-fvnerrmcuqd2zk6mbr76hrjda2bzem",
-      "name": "Prodigy Design Ltd"
+      "id": "o-83e82fecwnr2s4jzm3gw3dd428lhnn",
+      "name": "BancyCo"
     },
     "productSlug": null,
-    "urlSlug": "c27af3c6ec3a47afb720e580138de63e",
+    "urlSlug": "68a0e4e0a68d42ffba405593a89c55ba",
     "url": null,
     "items": [
       {
-        "id": "7fecb97e24f54f6ab6e636b5e685f3ae",
-        "namespace": "f570d80aa4fe463ca53c4410d1c75e1e"
+        "id": "e365d46233454542a98ebbaee6be5310",
+        "namespace": "cb87ac984c3c4c19b0a4e3e89048f187"
       }
     ],
     "customAttributes": [
@@ -328,19 +123,10 @@
     ],
     "tags": [
       {
-        "id": "29088"
+        "id": "1121"
       },
       {
-        "id": "1393"
-      },
-      {
-        "id": "1283"
-      },
-      {
-        "id": "1299"
-      },
-      {
-        "id": "21894"
+        "id": "1381"
       },
       {
         "id": "1370"
@@ -349,41 +135,38 @@
         "id": "9547"
       },
       {
-        "id": "1212"
+        "id": "1117"
       },
       {
         "id": "9549"
-      },
-      {
-        "id": "10719"
       }
     ],
     "catalogNs": {
       "mappings": [
         {
-          "pageSlug": "rival-stars-horse-racing-dd09de",
+          "pageSlug": "alone-with-you-028a15",
           "pageType": "productHome"
         }
       ]
     },
     "offerMappings": [
       {
-        "pageSlug": "rival-stars-horse-racing-dd09de",
+        "pageSlug": "alone-with-you-028a15",
         "pageType": "productHome"
       }
     ],
     "price": {
       "totalPrice": {
         "discountPrice": 0,
-        "originalPrice": 2499,
+        "originalPrice": 999,
         "voucherDiscount": 0,
-        "discount": 2499,
+        "discount": 999,
         "currencyCode": "USD",
         "currencyInfo": {
           "decimals": 2
         },
         "fmtPrice": {
-          "originalPrice": "$24.99",
+          "originalPrice": "$9.99",
           "discountPrice": "0",
           "intermediatePrice": "0"
         },
@@ -393,8 +176,8 @@
         {
           "appliedRules": [
             {
-              "id": "4ea98209cdc74edca0ebd853c4bad1f2",
-              "endDate": "2026-09-03T15:00:00.000Z",
+              "id": "1c812588fbe746218dfc43da343392f9",
+              "endDate": "2026-09-10T15:00:00.000Z",
               "discountSetting": {
                 "discountType": "PERCENTAGE"
               }
@@ -408,8 +191,8 @@
         {
           "promotionalOffers": [
             {
-              "startDate": "2026-08-27T15:00:00.000Z",
-              "endDate": "2026-09-03T15:00:00.000Z",
+              "startDate": "2026-09-03T15:00:00.000Z",
+              "endDate": "2026-09-10T15:00:00.000Z",
               "discountSetting": {
                 "discountType": "PERCENTAGE",
                 "discountPercentage": 0
