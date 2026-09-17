@@ -1,60 +1,76 @@
 [
   {
-    "title": "Luftrausers",
-    "id": "c76046dddcdb43619c33ce0395941033",
-    "namespace": "639daf403b554ee9b02eee5eedafc302",
-    "description": "The skies are aflame and the seas will overflow with wreckage in Vlambeer’s stylish arcade shooter LUFTRAUSERS! Take to the skies in customized fighter planes to battle battleships, submarines, and rival aces for glory, honor, and high scores.",
-    "effectiveDate": "2026-09-10T15:00:00.000Z",
+    "title": "Mindcop",
+    "id": "8a20c6c8d5b5417e800c687e9d72013e",
+    "namespace": "f20a4eda0f2d486ea73cab8af1224e31",
+    "description": "Mindcop is a non-linear „whodunnit“ detective game. It mixes a story driven adventure with real-time match-3 puzzle. As the infamous Mindcop, you can dive into the minds of your suspects to uncover their secrets and unravel their lies.​",
+    "effectiveDate": "2026-09-17T15:00:00.000Z",
     "offerType": "BASE_GAME",
     "expiryDate": null,
-    "viewableDate": "2026-09-03T15:00:00.000Z",
+    "viewableDate": "2026-09-10T15:00:00.000Z",
     "status": "ACTIVE",
     "isCodeRedemptionOnly": false,
     "keyImages": [
       {
         "type": "OfferImageWide",
-        "url": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-1mxb1.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-kplp1.jpg"
       },
       {
         "type": "OfferImageTall",
-        "url": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-11phb.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-1ppb5.jpg"
       },
       {
         "type": "Thumbnail",
-        "url": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-11phb.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-1ppb5.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-1glhp.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-1ikqt.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-1c3dt.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-1ire0.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-123bj.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-10lsx.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-1yuhh.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-8h2i5.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-na37c.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-ryrj1.jpg"
+      },
+      {
+        "type": "featuredMedia",
+        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-tnxza.jpg"
+      },
+      {
+        "type": "featuredMedia",
+        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-169na.jpg"
+      },
+      {
+        "type": "featuredMedia",
+        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-iyl4n.jpg"
+      },
+      {
+        "type": "featuredMedia",
+        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-s3zmc.jpg"
       }
     ],
     "seller": {
-      "id": "o-plnhdz2wfx5etjjeh88szjqy2gx8gw",
-      "name": "Devolver Digital, Inc."
+      "id": "o-yw5ga5z854qs64ld82qey3dz2d7z32",
+      "name": "Plug In Digital SAS"
     },
     "productSlug": null,
-    "urlSlug": "luftrausers",
+    "urlSlug": "1513de80f23f42e584540be749826057",
     "url": null,
     "items": [
       {
-        "id": "98fb3320a8964a1d85beb87e64eba312",
-        "namespace": "639daf403b554ee9b02eee5eedafc302"
+        "id": "7f196be5a78845ab98345f412833925b",
+        "namespace": "f20a4eda0f2d486ea73cab8af1224e31"
       }
     ],
     "customAttributes": [
@@ -95,41 +111,47 @@
     ],
     "tags": [
       {
-        "id": "1216"
+        "id": "19847"
       },
       {
         "id": "1370"
       },
       {
         "id": "9547"
+      },
+      {
+        "id": "1117"
+      },
+      {
+        "id": "1263"
       }
     ],
     "catalogNs": {
       "mappings": [
         {
-          "pageSlug": "luftrausers-51e5e9",
+          "pageSlug": "mindcop-78e6c1",
           "pageType": "productHome"
         }
       ]
     },
     "offerMappings": [
       {
-        "pageSlug": "luftrausers-51e5e9",
+        "pageSlug": "mindcop-78e6c1",
         "pageType": "productHome"
       }
     ],
     "price": {
       "totalPrice": {
         "discountPrice": 0,
-        "originalPrice": 999,
+        "originalPrice": 1499,
         "voucherDiscount": 0,
-        "discount": 999,
+        "discount": 1499,
         "currencyCode": "USD",
         "currencyInfo": {
           "decimals": 2
         },
         "fmtPrice": {
-          "originalPrice": "$9.99",
+          "originalPrice": "$14.99",
           "discountPrice": "0",
           "intermediatePrice": "0"
         },
@@ -139,8 +161,8 @@
         {
           "appliedRules": [
             {
-              "id": "52ace834bc724ce6a193df1302d2f219",
-              "endDate": "2026-09-17T15:00:00.000Z",
+              "id": "8673a8fef508453e9142e4a091b21fe8",
+              "endDate": "2026-09-24T15:00:00.000Z",
               "discountSetting": {
                 "discountType": "PERCENTAGE"
               }
@@ -154,8 +176,8 @@
         {
           "promotionalOffers": [
             {
-              "startDate": "2026-09-10T15:00:00.000Z",
-              "endDate": "2026-09-17T15:00:00.000Z",
+              "startDate": "2026-09-17T15:00:00.000Z",
+              "endDate": "2026-09-24T15:00:00.000Z",
               "discountSetting": {
                 "discountType": "PERCENTAGE",
                 "discountPercentage": 0
@@ -168,105 +190,73 @@
     }
   },
   {
-    "title": "Astral Ascent",
-    "id": "e9bb092228f544c582e2c9395fae96f3",
-    "namespace": "0cb5817d554740e8bedf9ceea32522bd",
-    "description": "Choose one of four heroes and explore the Garden, an astral prison guarded by 12 powerful mystical bosses: the Zodiacs. Challenge them with dozens of unique spells and faithful friends by your side to unfold the story of this platform roguelite with lightning fast combat.",
-    "effectiveDate": "2026-09-10T15:00:00.000Z",
+    "title": "Shogun Showdown",
+    "id": "b9ff3f98367a45cdac289dff6683a2bc",
+    "namespace": "59ff4d481277487d8c073166ba7612d3",
+    "description": "Shogun Showdown is a turn-based combat game with rogue-like and deck-building elements. Position yourself and attack at the right time, upgrade your tiles and combo them to get ready to face the Shogun!",
+    "effectiveDate": "2026-09-17T15:00:00.000Z",
     "offerType": "BASE_GAME",
     "expiryDate": null,
-    "viewableDate": "2026-09-03T14:15:03.000Z",
+    "viewableDate": "2026-09-09T16:22:45.000Z",
     "status": "ACTIVE",
     "isCodeRedemptionOnly": false,
     "keyImages": [
       {
         "type": "OfferImageWide",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-b0gcm.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-hz1yh.jpg"
       },
       {
         "type": "OfferImageTall",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-15n1j.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-6ynli.jpg"
       },
       {
         "type": "Thumbnail",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-15n1j.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-6ynli.jpg"
       },
       {
         "type": "heroCarouselVideo",
-        "url": "com.epicgames.video.qs://d1b2ed77-c37b-4118-bf9d-deda8a5de4da?cover=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2F974c8a587d714d8d9e0c3b0fefe61a35%2Fastral-ascent-video-1xga9.png"
+        "url": "com.epicgames.video.qs://8905e774-2bd2-46ca-9037-670f3e407114?cover=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2F450bcfdb9c00453394d7ccc2948ba5db%2Fshogun-showdown-video-9o5v6.png"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-wdgyc.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-1n1qu.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-1epks.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-1oh34.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-knjbe.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-bv1ui.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-dy63k.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-1wvmr.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-qh3ec.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-1dymj.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-170ur.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-1gq3k.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-1l6tw.png"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-oa0lh.png"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-13s0c.png"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-3f2xv.png"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-c9kg9.png"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-1lhki.png"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-ct00m.png"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-1vi4u.png"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-s54nd.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-168ez.jpg"
       }
     ],
     "seller": {
-      "id": "o-9ltdw7y45c22c8mrbcz82bwps3hmzq",
-      "name": "Hibernian Workshop"
+      "id": "o-7jby5x5ez3xmyf5qhgur72hlye379e",
+      "name": "Goblinz Studio SAS"
     },
     "productSlug": null,
-    "urlSlug": "d72ccf025e574bb4a725e3079ea34081",
+    "urlSlug": "shogun-showdown",
     "url": null,
     "items": [
       {
-        "id": "16bbe6e74ca34a739b80df882c60e412",
-        "namespace": "0cb5817d554740e8bedf9ceea32522bd"
+        "id": "1cc9b18afb7b40b1847852ef828293dc",
+        "namespace": "59ff4d481277487d8c073166ba7612d3"
       }
     ],
     "customAttributes": [
@@ -280,7 +270,7 @@
       },
       {
         "key": "isPromotionalContentUsed",
-        "value": "true"
+        "value": "false"
       },
       {
         "key": "isManuallySetPCReleaseDate",
@@ -307,59 +297,50 @@
     ],
     "tags": [
       {
-        "id": "1216"
-      },
-      {
-        "id": "33639"
-      },
-      {
         "id": "19847"
       },
       {
         "id": "1370"
       },
       {
+        "id": "1386"
+      },
+      {
         "id": "1083"
       },
       {
+        "id": "1115"
+      },
+      {
         "id": "9547"
-      },
-      {
-        "id": "9549"
-      },
-      {
-        "id": "1183"
-      },
-      {
-        "id": "1263"
       }
     ],
     "catalogNs": {
       "mappings": [
         {
-          "pageSlug": "astral-ascent-b33bc2",
+          "pageSlug": "shogun-showdown-61832d",
           "pageType": "productHome"
         }
       ]
     },
     "offerMappings": [
       {
-        "pageSlug": "astral-ascent-b33bc2",
+        "pageSlug": "shogun-showdown-61832d",
         "pageType": "productHome"
       }
     ],
     "price": {
       "totalPrice": {
         "discountPrice": 0,
-        "originalPrice": 2499,
+        "originalPrice": 1499,
         "voucherDiscount": 0,
-        "discount": 2499,
+        "discount": 1499,
         "currencyCode": "USD",
         "currencyInfo": {
           "decimals": 2
         },
         "fmtPrice": {
-          "originalPrice": "$24.99",
+          "originalPrice": "$14.99",
           "discountPrice": "0",
           "intermediatePrice": "0"
         },
@@ -369,8 +350,8 @@
         {
           "appliedRules": [
             {
-              "id": "570d9c212bb3457a9434b81aa8d29df9",
-              "endDate": "2026-09-17T15:00:00.000Z",
+              "id": "0f2c45f17a394597a78b8ef5b3673e73",
+              "endDate": "2026-09-24T15:00:00.000Z",
               "discountSetting": {
                 "discountType": "PERCENTAGE"
               }
@@ -384,8 +365,8 @@
         {
           "promotionalOffers": [
             {
-              "startDate": "2026-09-10T15:00:00.000Z",
-              "endDate": "2026-09-17T15:00:00.000Z",
+              "startDate": "2026-09-17T15:00:00.000Z",
+              "endDate": "2026-09-24T15:00:00.000Z",
               "discountSetting": {
                 "discountType": "PERCENTAGE",
                 "discountPercentage": 0

@@ -1,20 +1,20 @@
 # Current Free Epic Games
 
-## [Luftrausers — $9.99 USD](https://store.epicgames.com/p/luftrausers)
-#### *By Devolver Digital, Inc.*
+## [Mindcop — $14.99 USD](https://store.epicgames.com/p/1513de80f23f42e584540be749826057)
+#### *By Plug In Digital SAS*
 
-[![Luftrausers](https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-1mxb1.png)](https://store.epicgames.com/p/luftrausers)
+[![Mindcop](https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-kplp1.jpg)](https://store.epicgames.com/p/1513de80f23f42e584540be749826057)
 
-The skies are aflame and the seas will overflow with wreckage in Vlambeer’s stylish arcade shooter LUFTRAUSERS! Take to the skies in customized fighter planes to battle battleships, submarines, and rival aces for glory, honor, and high scores.
+Mindcop is a non-linear „whodunnit“ detective game. It mixes a story driven adventure with real-time match-3 puzzle. As the infamous Mindcop, you can dive into the minds of your suspects to uncover their secrets and unravel their lies.​
 
 ---
 
-## [Astral Ascent — $24.99 USD](https://store.epicgames.com/p/d72ccf025e574bb4a725e3079ea34081)
-#### *By Hibernian Workshop*
+## [Shogun Showdown — $14.99 USD](https://store.epicgames.com/p/shogun-showdown)
+#### *By Goblinz Studio SAS*
 
-[![Astral Ascent](https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-b0gcm.png)](https://store.epicgames.com/p/d72ccf025e574bb4a725e3079ea34081)
+[![Shogun Showdown](https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-hz1yh.jpg)](https://store.epicgames.com/p/shogun-showdown)
 
-Choose one of four heroes and explore the Garden, an astral prison guarded by 12 powerful mystical bosses: the Zodiacs. Challenge them with dozens of unique spells and faithful friends by your side to unfold the story of this platform roguelite with lightning fast combat.
+Shogun Showdown is a turn-based combat game with rogue-like and deck-building elements. Position yourself and attack at the right time, upgrade your tiles and combo them to get ready to face the Shogun!
 
 ---
 
