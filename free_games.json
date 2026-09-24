@@ -1,76 +1,40 @@
 [
   {
-    "title": "Mindcop",
-    "id": "8a20c6c8d5b5417e800c687e9d72013e",
-    "namespace": "f20a4eda0f2d486ea73cab8af1224e31",
-    "description": "Mindcop is a non-linear „whodunnit“ detective game. It mixes a story driven adventure with real-time match-3 puzzle. As the infamous Mindcop, you can dive into the minds of your suspects to uncover their secrets and unravel their lies.​",
-    "effectiveDate": "2026-09-17T15:00:00.000Z",
+    "title": "Astrea Six Sided Oracles",
+    "id": "7c14bf0cffdd43be968fdcf28e5af653",
+    "namespace": "a940fa38f001486a9884640924119576",
+    "description": "An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System.",
+    "effectiveDate": "2023-09-21T16:00:00.000Z",
     "offerType": "BASE_GAME",
     "expiryDate": null,
-    "viewableDate": "2026-09-10T15:00:00.000Z",
+    "viewableDate": "2022-06-29T18:00:00.000Z",
     "status": "ACTIVE",
     "isCodeRedemptionOnly": false,
     "keyImages": [
       {
         "type": "OfferImageWide",
-        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-kplp1.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/4515173972ae4444a2582bc690c150bd/astrea-six-sided-oracles-offer-bvy0n.png"
       },
       {
         "type": "OfferImageTall",
-        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-1ppb5.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/4515173972ae4444a2582bc690c150bd/download-astrea-six-sided-oracles-offer-av5rc.png"
       },
       {
         "type": "Thumbnail",
-        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-1ppb5.jpg"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-1ikqt.jpg"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-1ire0.jpg"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-10lsx.jpg"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-8h2i5.jpg"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-ryrj1.jpg"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-tnxza.jpg"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-169na.jpg"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-iyl4n.jpg"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-s3zmc.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/4515173972ae4444a2582bc690c150bd/download-astrea-six-sided-oracles-offer-av5rc.png"
       }
     ],
     "seller": {
-      "id": "o-yw5ga5z854qs64ld82qey3dz2d7z32",
-      "name": "Plug In Digital SAS"
+      "id": "o-vzv8n7jse99sluj4vaa8522rh45cvg",
+      "name": "Akupara Games"
     },
     "productSlug": null,
-    "urlSlug": "1513de80f23f42e584540be749826057",
+    "urlSlug": "915d7181013c40d980e1924513c7b8ec",
     "url": null,
     "items": [
       {
-        "id": "7f196be5a78845ab98345f412833925b",
-        "namespace": "f20a4eda0f2d486ea73cab8af1224e31"
+        "id": "f7043f847c23410787f8428f14b03c1f",
+        "namespace": "a940fa38f001486a9884640924119576"
       }
     ],
     "customAttributes": [
@@ -111,47 +75,80 @@
     ],
     "tags": [
       {
+        "id": "21122"
+      },
+      {
+        "id": "1188"
+      },
+      {
+        "id": "21894"
+      },
+      {
         "id": "19847"
       },
       {
-        "id": "1370"
+        "id": "21127"
       },
       {
         "id": "9547"
       },
       {
+        "id": "39953"
+      },
+      {
+        "id": "21138"
+      },
+      {
+        "id": "21139"
+      },
+      {
+        "id": "21140"
+      },
+      {
+        "id": "21141"
+      },
+      {
+        "id": "1370"
+      },
+      {
         "id": "1117"
       },
       {
-        "id": "1263"
+        "id": "1181"
+      },
+      {
+        "id": "21149"
+      },
+      {
+        "id": "21119"
       }
     ],
     "catalogNs": {
       "mappings": [
         {
-          "pageSlug": "mindcop-78e6c1",
+          "pageSlug": "astrea-six-sided-oracles-33c949",
           "pageType": "productHome"
         }
       ]
     },
     "offerMappings": [
       {
-        "pageSlug": "mindcop-78e6c1",
+        "pageSlug": "astrea-six-sided-oracles-33c949",
         "pageType": "productHome"
       }
     ],
     "price": {
       "totalPrice": {
         "discountPrice": 0,
-        "originalPrice": 1499,
+        "originalPrice": 2499,
         "voucherDiscount": 0,
-        "discount": 1499,
+        "discount": 2499,
         "currencyCode": "USD",
         "currencyInfo": {
           "decimals": 2
         },
         "fmtPrice": {
-          "originalPrice": "$14.99",
+          "originalPrice": "$24.99",
           "discountPrice": "0",
           "intermediatePrice": "0"
         },
@@ -161,8 +158,8 @@
         {
           "appliedRules": [
             {
-              "id": "8673a8fef508453e9142e4a091b21fe8",
-              "endDate": "2026-09-24T15:00:00.000Z",
+              "id": "43d08ca40f5f4e1c9ddc602632a2100a",
+              "endDate": "2026-10-01T15:00:00.000Z",
               "discountSetting": {
                 "discountType": "PERCENTAGE"
               }
@@ -176,8 +173,8 @@
         {
           "promotionalOffers": [
             {
-              "startDate": "2026-09-17T15:00:00.000Z",
-              "endDate": "2026-09-24T15:00:00.000Z",
+              "startDate": "2026-09-24T15:00:00.000Z",
+              "endDate": "2026-10-01T15:00:00.000Z",
               "discountSetting": {
                 "discountType": "PERCENTAGE",
                 "discountPercentage": 0
@@ -186,77 +183,102 @@
           ]
         }
       ],
-      "upcomingPromotionalOffers": []
+      "upcomingPromotionalOffers": [
+        {
+          "promotionalOffers": [
+            {
+              "startDate": "2026-10-19T15:00:00.000Z",
+              "endDate": "2026-11-02T16:00:00.000Z",
+              "discountSetting": {
+                "discountType": "PERCENTAGE",
+                "discountPercentage": 60
+              }
+            }
+          ]
+        }
+      ]
     }
   },
   {
-    "title": "Shogun Showdown",
-    "id": "b9ff3f98367a45cdac289dff6683a2bc",
-    "namespace": "59ff4d481277487d8c073166ba7612d3",
-    "description": "Shogun Showdown is a turn-based combat game with rogue-like and deck-building elements. Position yourself and attack at the right time, upgrade your tiles and combo them to get ready to face the Shogun!",
-    "effectiveDate": "2026-09-17T15:00:00.000Z",
+    "title": "Mechabellum",
+    "id": "6d99eae44d724baf84d6261a7a0f05d2",
+    "namespace": "36074aa6badf45698cced1a44e837fa2",
+    "description": "Command massive armies in this epic mech auto-battler. Draft your troops, customize your units, master your formations, and crush enemies in spectacular 3D battles. All strategy, no clickfest. Outsmart opponents in 1v1, 2v2, free-for-all, or Survival Mode.",
+    "effectiveDate": "2026-06-04T16:00:00.000Z",
     "offerType": "BASE_GAME",
     "expiryDate": null,
-    "viewableDate": "2026-09-09T16:22:45.000Z",
+    "viewableDate": "2026-04-09T17:00:00.000Z",
     "status": "ACTIVE",
     "isCodeRedemptionOnly": false,
     "keyImages": [
       {
         "type": "OfferImageWide",
-        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-hz1yh.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-95319.jpg"
       },
       {
         "type": "OfferImageTall",
-        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-6ynli.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-1jq5t.jpg"
       },
       {
         "type": "Thumbnail",
-        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-6ynli.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-1jq5t.jpg"
       },
       {
         "type": "heroCarouselVideo",
-        "url": "com.epicgames.video.qs://8905e774-2bd2-46ca-9037-670f3e407114?cover=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2F450bcfdb9c00453394d7ccc2948ba5db%2Fshogun-showdown-video-9o5v6.png"
+        "url": "com.epicgames.video.qs://29215281-06ee-496d-a90b-83dda7cd2ac4?cover=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2F131adc2288294d74aaff6a2f02b51d59%2Fmechabellum-video-1ardc.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-1n1qu.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-mmzlj.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-1oh34.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-1xt6h.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-bv1ui.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-b2xd3.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-1wvmr.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-11en2.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-1dymj.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-1u4oa.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-1gq3k.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-5h1se.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-168ez.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-wc0iv.jpg"
+      },
+      {
+        "type": "featuredMedia",
+        "url": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-aef22.jpg"
+      },
+      {
+        "type": "GalleryImage",
+        "url": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-9cstt.jpg"
+      },
+      {
+        "type": "OgImage",
+        "url": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-1irdn.jpg"
       }
     ],
     "seller": {
-      "id": "o-7jby5x5ez3xmyf5qhgur72hlye379e",
-      "name": "Goblinz Studio SAS"
+      "id": "o-cufnvnhm6n2c3f3pnuvx84re9vt8rj",
+      "name": "Dreamhaven, Inc."
     },
     "productSlug": null,
-    "urlSlug": "shogun-showdown",
+    "urlSlug": "6a87570c28144b9cb50eb0ba46a7e19e",
     "url": null,
     "items": [
       {
-        "id": "1cc9b18afb7b40b1847852ef828293dc",
-        "namespace": "59ff4d481277487d8c073166ba7612d3"
+        "id": "e625b34a4e5547f6bb83ceecf21b0dea",
+        "namespace": "36074aa6badf45698cced1a44e837fa2"
       }
     ],
     "customAttributes": [
@@ -297,19 +319,25 @@
     ],
     "tags": [
       {
-        "id": "19847"
+        "id": "1120"
       },
       {
-        "id": "1370"
+        "id": "1264"
       },
       {
-        "id": "1386"
+        "id": "1299"
       },
       {
-        "id": "1083"
+        "id": "22775"
+      },
+      {
+        "id": "22776"
       },
       {
         "id": "1115"
+      },
+      {
+        "id": "1275"
       },
       {
         "id": "9547"
@@ -318,14 +346,14 @@
     "catalogNs": {
       "mappings": [
         {
-          "pageSlug": "shogun-showdown-61832d",
+          "pageSlug": "mechabellum-88a843",
           "pageType": "productHome"
         }
       ]
     },
     "offerMappings": [
       {
-        "pageSlug": "shogun-showdown-61832d",
+        "pageSlug": "mechabellum-88a843",
         "pageType": "productHome"
       }
     ],
@@ -350,8 +378,8 @@
         {
           "appliedRules": [
             {
-              "id": "0f2c45f17a394597a78b8ef5b3673e73",
-              "endDate": "2026-09-24T15:00:00.000Z",
+              "id": "575f86bbfb1c4f7182e6e32dc9478526",
+              "endDate": "2026-10-01T15:00:00.000Z",
               "discountSetting": {
                 "discountType": "PERCENTAGE"
               }
@@ -365,8 +393,8 @@
         {
           "promotionalOffers": [
             {
-              "startDate": "2026-09-17T15:00:00.000Z",
-              "endDate": "2026-09-24T15:00:00.000Z",
+              "startDate": "2026-09-24T15:00:00.000Z",
+              "endDate": "2026-10-01T15:00:00.000Z",
               "discountSetting": {
                 "discountType": "PERCENTAGE",
                 "discountPercentage": 0

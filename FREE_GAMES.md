@@ -1,20 +1,20 @@
 # Current Free Epic Games
 
-## [Mindcop — $14.99 USD](https://store.epicgames.com/p/1513de80f23f42e584540be749826057)
-#### *By Plug In Digital SAS*
+## [Astrea Six Sided Oracles — $24.99 USD](https://store.epicgames.com/p/915d7181013c40d980e1924513c7b8ec)
+#### *By Akupara Games*
 
-[![Mindcop](https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-kplp1.jpg)](https://store.epicgames.com/p/1513de80f23f42e584540be749826057)
+[![Astrea Six Sided Oracles](https://cdn1.epicgames.com/spt-assets/4515173972ae4444a2582bc690c150bd/astrea-six-sided-oracles-offer-bvy0n.png)](https://store.epicgames.com/p/915d7181013c40d980e1924513c7b8ec)
 
-Mindcop is a non-linear „whodunnit“ detective game. It mixes a story driven adventure with real-time match-3 puzzle. As the infamous Mindcop, you can dive into the minds of your suspects to uncover their secrets and unravel their lies.​
+An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System.
 
 ---
 
-## [Shogun Showdown — $14.99 USD](https://store.epicgames.com/p/shogun-showdown)
-#### *By Goblinz Studio SAS*
+## [Mechabellum — $14.99 USD](https://store.epicgames.com/p/6a87570c28144b9cb50eb0ba46a7e19e)
+#### *By Dreamhaven, Inc.*
 
-[![Shogun Showdown](https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-hz1yh.jpg)](https://store.epicgames.com/p/shogun-showdown)
+[![Mechabellum](https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-95319.jpg)](https://store.epicgames.com/p/6a87570c28144b9cb50eb0ba46a7e19e)
 
-Shogun Showdown is a turn-based combat game with rogue-like and deck-building elements. Position yourself and attack at the right time, upgrade your tiles and combo them to get ready to face the Shogun!
+Command massive armies in this epic mech auto-battler. Draft your troops, customize your units, master your formations, and crush enemies in spectacular 3D battles. All strategy, no clickfest. Outsmart opponents in 1v1, 2v2, free-for-all, or Survival Mode.
 
 ---
 
