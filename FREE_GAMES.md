@@ -1,20 +1,21 @@
 # Current Free Epic Games
 
-## [Astrea Six Sided Oracles — $24.99 USD](https://store.epicgames.com/p/915d7181013c40d980e1924513c7b8ec)
-#### *By Akupara Games*
+## [System Shock 2: 25th Anniversary Remaster — $29.99 USD](https://store.epicgames.com/p/system-shock-2-25th-anniversary-remaster)
+#### *By Atari*
 
-[![Astrea Six Sided Oracles](https://cdn1.epicgames.com/spt-assets/4515173972ae4444a2582bc690c150bd/astrea-six-sided-oracles-offer-bvy0n.png)](https://store.epicgames.com/p/915d7181013c40d980e1924513c7b8ec)
+[![System Shock 2: 25th Anniversary Remaster](https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-1e28j.jpg)](https://store.epicgames.com/p/system-shock-2-25th-anniversary-remaster)
 
-An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System.
+System Shock® 2: 25th Anniversary Remaster is a genre defining experience that established innovative game-play mechanics that are a staple of the FPS and RPG genre today. Survive the wretched corridors of the Von Braun. Your training has prepared you for this.
 
 ---
 
-## [Mechabellum — $14.99 USD](https://store.epicgames.com/p/6a87570c28144b9cb50eb0ba46a7e19e)
-#### *By Dreamhaven, Inc.*
+## [BURIED STARS — $39.99 USD](https://store.epicgames.com/p/buried-stars)
+#### *By LINE Games Corporation*
 
-[![Mechabellum](https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-95319.jpg)](https://store.epicgames.com/p/6a87570c28144b9cb50eb0ba46a7e19e)
+[![BURIED STARS](https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-1j9of.jpg)](https://store.epicgames.com/p/buried-stars)
 
-Command massive armies in this epic mech auto-battler. Draft your troops, customize your units, master your formations, and crush enemies in spectacular 3D battles. All strategy, no clickfest. Outsmart opponents in 1v1, 2v2, free-for-all, or Survival Mode.
+A mystery adventure set at the collapse site of a live survival audition show.
+Trapped contestants communicate with each other—and the outside world through social media—as they wait for rescue. But trust begins to crack, and survival becomes far more complicated.
 
 ---
 
