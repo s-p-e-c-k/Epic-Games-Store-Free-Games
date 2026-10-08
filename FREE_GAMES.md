@@ -1,21 +1,20 @@
 # Current Free Epic Games
 
-## [System Shock 2: 25th Anniversary Remaster — $29.99 USD](https://store.epicgames.com/p/system-shock-2-25th-anniversary-remaster)
-#### *By Atari*
+## [Out of Sight — $14.99 USD](https://store.epicgames.com/p/f350878fcb5242d6851cfe2fa1316e76)
+#### *By The Gang Studio AB*
 
-[![System Shock 2: 25th Anniversary Remaster](https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-1e28j.jpg)](https://store.epicgames.com/p/system-shock-2-25th-anniversary-remaster)
+[![Out of Sight](https://cdn1.epicgames.com/spt-assets/6e1bf54cfa6344c89d41e4e7af036ac9/out-of-sight-1l12n.jpg)](https://store.epicgames.com/p/f350878fcb5242d6851cfe2fa1316e76)
 
-System Shock® 2: 25th Anniversary Remaster is a genre defining experience that established innovative game-play mechanics that are a staple of the FPS and RPG genre today. Survive the wretched corridors of the Von Braun. Your training has prepared you for this.
+You’re Sophie, a young blind girl who sees through her teddy bear’s eyes. Escape your captors and uncover the evil history of the dark mansion you desperately seek to escape in this unique, atmospheric horror puzzle/adventure game.
 
 ---
 
-## [BURIED STARS — $39.99 USD](https://store.epicgames.com/p/buried-stars)
-#### *By LINE Games Corporation*
+## [TerraScape — $16.99 USD](https://store.epicgames.com/p/f229ed53ddba40788e0ab62978e9eaf9)
+#### *By Bitfall Studios GmbH*
 
-[![BURIED STARS](https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-1j9of.jpg)](https://store.epicgames.com/p/buried-stars)
+[![TerraScape](https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-j7p8d.png)](https://store.epicgames.com/p/f229ed53ddba40788e0ab62978e9eaf9)
 
-A mystery adventure set at the collapse site of a live survival audition show.
-Trapped contestants communicate with each other—and the outside world through social media—as they wait for rescue. But trust begins to crack, and survival becomes far more complicated.
+Build gorgeous kingdoms on floating islands by strategically placing buildings in this cozy, medieval City-Puzzler. Discover secret combinations, take on monthly challenges and explore randomly generated maps in various single- and multiplayer game modes.
 
 ---
 

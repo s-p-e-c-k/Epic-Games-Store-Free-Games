@@ -1,80 +1,72 @@
 [
   {
-    "title": "System Shock 2: 25th Anniversary Remaster",
-    "id": "7ae00c3e89174012b175cc73b4737723",
-    "namespace": "a90f2381d7aa48c09b4080515a9541cd",
-    "description": "System Shock® 2: 25th Anniversary Remaster is a genre defining experience that established innovative game-play mechanics that are a staple of the FPS and RPG genre today. Survive the wretched corridors of the Von Braun. Your training has prepared you for this.",
-    "effectiveDate": "2025-06-26T12:00:00.000Z",
+    "title": "Out of Sight",
+    "id": "cb733f3432db46bca94965b422c33ede",
+    "namespace": "436099305a2249a8bbe4d9113fc41d53",
+    "description": "You’re Sophie, a young blind girl who sees through her teddy bear’s eyes. Escape your captors and uncover the evil history of the dark mansion you desperately seek to escape in this unique, atmospheric horror puzzle/adventure game.",
+    "effectiveDate": "2025-05-22T13:00:00.000Z",
     "offerType": "BASE_GAME",
     "expiryDate": null,
-    "viewableDate": "2025-06-26T12:00:00.000Z",
+    "viewableDate": "2025-02-14T20:17:52.000Z",
     "status": "ACTIVE",
     "isCodeRedemptionOnly": false,
     "keyImages": [
       {
         "type": "OfferImageWide",
-        "url": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-1e28j.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/6e1bf54cfa6344c89d41e4e7af036ac9/out-of-sight-1l12n.jpg"
       },
       {
         "type": "OfferImageTall",
-        "url": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-15vqr.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/6e1bf54cfa6344c89d41e4e7af036ac9/out-of-sight-tfgmv.jpg"
       },
       {
         "type": "Thumbnail",
-        "url": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-15vqr.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/6e1bf54cfa6344c89d41e4e7af036ac9/out-of-sight-tfgmv.jpg"
+      },
+      {
+        "type": "heroCarouselVideo",
+        "url": "com.epicgames.video://1b5ad2a6-bc5f-4d04-a1aa-1e680cde0ba3?cover=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2F6e1bf54cfa6344c89d41e4e7af036ac9%2Fout-of-sight-video-163lt.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-1cbhi.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/6e1bf54cfa6344c89d41e4e7af036ac9/out-of-sight-aq532.png"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-x35r2.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/6e1bf54cfa6344c89d41e4e7af036ac9/out-of-sight-1qcxe.png"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-cui8w.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/6e1bf54cfa6344c89d41e4e7af036ac9/out-of-sight-j49of.png"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-xs1u9.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/6e1bf54cfa6344c89d41e4e7af036ac9/out-of-sight-arpk3.png"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-icq2r.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/6e1bf54cfa6344c89d41e4e7af036ac9/out-of-sight-1aees.png"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-1x5fm.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/6e1bf54cfa6344c89d41e4e7af036ac9/out-of-sight-jw419.png"
       },
       {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-yzlta.jpg"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-gacl6.jpg"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-1x67b.jpg"
-      },
-      {
-        "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-v21p8.jpg"
+        "type": "OgImage",
+        "url": "https://cdn1.epicgames.com/spt-assets/6e1bf54cfa6344c89d41e4e7af036ac9/out-of-sight-17wkr.jpg"
       }
     ],
     "seller": {
-      "id": "o-bhpk86rgthezed539g3hb5avacecqt",
-      "name": "Atari"
+      "id": "o-e4mgnmnmw3nv24cep4kazccjgg8d7p",
+      "name": "The Gang Studio AB"
     },
     "productSlug": null,
-    "urlSlug": "system-shock-2-25th-anniversary-remaster",
+    "urlSlug": "f350878fcb5242d6851cfe2fa1316e76",
     "url": null,
     "items": [
       {
-        "id": "f90d5571c29740758ecc410b3d18f9a4",
-        "namespace": "a90f2381d7aa48c09b4080515a9541cd"
+        "id": "058ea9f5f03f4a4bb2ea965734b543e7",
+        "namespace": "436099305a2249a8bbe4d9113fc41d53"
       }
     ],
     "customAttributes": [
@@ -118,10 +110,10 @@
         "id": "1218"
       },
       {
-        "id": "19847"
+        "id": "1298"
       },
       {
-        "id": "1210"
+        "id": "19847"
       },
       {
         "id": "1370"
@@ -130,35 +122,38 @@
         "id": "9547"
       },
       {
-        "id": "1294"
+        "id": "1117"
+      },
+      {
+        "id": "9549"
       }
     ],
     "catalogNs": {
       "mappings": [
         {
-          "pageSlug": "system-shock-2-25th-anniversary-remaster-cb94d9",
+          "pageSlug": "out-of-sight-b96ca8",
           "pageType": "productHome"
         }
       ]
     },
     "offerMappings": [
       {
-        "pageSlug": "system-shock-2-25th-anniversary-remaster-cb94d9",
+        "pageSlug": "out-of-sight-b96ca8",
         "pageType": "productHome"
       }
     ],
     "price": {
       "totalPrice": {
         "discountPrice": 0,
-        "originalPrice": 2999,
+        "originalPrice": 1499,
         "voucherDiscount": 0,
-        "discount": 2999,
+        "discount": 1499,
         "currencyCode": "USD",
         "currencyInfo": {
           "decimals": 2
         },
         "fmtPrice": {
-          "originalPrice": "$29.99",
+          "originalPrice": "$14.99",
           "discountPrice": "0",
           "intermediatePrice": "0"
         },
@@ -168,8 +163,8 @@
         {
           "appliedRules": [
             {
-              "id": "fa59829e47b447db86131fb2d713cffd",
-              "endDate": "2026-10-08T15:00:00.000Z",
+              "id": "804611a6347e48398b1096ecc862a534",
+              "endDate": "2026-10-15T15:00:00.000Z",
               "discountSetting": {
                 "discountType": "PERCENTAGE"
               }
@@ -183,8 +178,8 @@
         {
           "promotionalOffers": [
             {
-              "startDate": "2026-10-01T15:00:00.000Z",
-              "endDate": "2026-10-08T15:00:00.000Z",
+              "startDate": "2026-10-08T15:00:00.000Z",
+              "endDate": "2026-10-15T15:00:00.000Z",
               "discountSetting": {
                 "discountType": "PERCENTAGE",
                 "discountPercentage": 0
@@ -197,85 +192,81 @@
     }
   },
   {
-    "title": "BURIED STARS",
-    "id": "af4c34934afe4db0870b8a1d82dceb94",
-    "namespace": "9bd512d68e3143909842932ac45a4182",
-    "description": "A mystery adventure set at the collapse site of a live survival audition show.\nTrapped contestants communicate with each other—and the outside world through social media—as they wait for rescue. But trust begins to crack, and survival becomes far more complicated.",
-    "effectiveDate": "2026-08-26T02:00:00.000Z",
+    "title": "TerraScape",
+    "id": "af6b823b8698465f9aedc3bddf2e8686",
+    "namespace": "bfb80547289b477193ce3b14d83cd292",
+    "description": "Build gorgeous kingdoms on floating islands by strategically placing buildings in this cozy, medieval City-Puzzler. Discover secret combinations, take on monthly challenges and explore randomly generated maps in various single- and multiplayer game modes.",
+    "effectiveDate": "2026-10-08T15:00:00.000Z",
     "offerType": "BASE_GAME",
     "expiryDate": null,
-    "viewableDate": "2026-08-25T02:02:44.000Z",
+    "viewableDate": "2026-09-29T14:03:02.000Z",
     "status": "ACTIVE",
     "isCodeRedemptionOnly": false,
     "keyImages": [
       {
         "type": "OfferImageWide",
-        "url": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-1j9of.jpg"
+        "url": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-j7p8d.png"
       },
       {
         "type": "OfferImageTall",
-        "url": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-yijfe.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-x908b.png"
       },
       {
         "type": "Thumbnail",
-        "url": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-yijfe.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-x908b.png"
       },
       {
         "type": "heroCarouselVideo",
-        "url": "com.epicgames.video.qs://f5941d29-59a8-478d-b323-1fc58cffefff?cover=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2Fe2dc55c2709641a18fc37ef7ce32cfdd%2Fburied-stars-video-89tbz.png"
-      },
-      {
-        "type": "heroCarouselVideo",
-        "url": "com.epicgames.video.qs://f5f48e9c-41d1-4b94-a7b2-9cfb3f38f919?cover=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2Fe2dc55c2709641a18fc37ef7ce32cfdd%2Fburied-stars-video-1ml61.png"
+        "url": "com.epicgames.video.qs://875ab13f-fda5-4f32-8a1a-2edb930bf292?cover=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2Fa740a2eed807469f88b9dff17e7cd3a3%2Fterrascape-video-edu4h.png"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-xcylq.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-ywfxi.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-cj6dv.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-f0pne.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-r44z6.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-1frq7.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-38d59.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-b1gmk.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-9l96o.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-jefwt.jpg"
       },
       {
         "type": "featuredMedia",
-        "url": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-1fux8.png"
+        "url": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-hp00u.jpg"
       },
       {
-        "type": "GalleryImage",
-        "url": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-pknw1.jpg"
+        "type": "featuredMedia",
+        "url": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-1lfgq.jpg"
       },
       {
-        "type": "GalleryImage",
-        "url": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-19j45.jpg"
+        "type": "featuredMedia",
+        "url": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-11die.jpg"
       },
       {
-        "type": "GalleryImage",
-        "url": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-a7f5t.jpg"
+        "type": "featuredMedia",
+        "url": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-1kz5c.jpg"
       }
     ],
     "seller": {
-      "id": "o-acvxzssc5z7uj7xaqtv5jzszmwhab4",
-      "name": "LINE Games Corporation"
+      "id": "o-m7c9hge3j8w7xxnf3bf49tzua88t8a",
+      "name": "Bitfall Studios GmbH"
     },
     "productSlug": null,
-    "urlSlug": "buried-stars",
+    "urlSlug": "f229ed53ddba40788e0ab62978e9eaf9",
     "url": null,
     "items": [
       {
-        "id": "f13916b569584a1b901dad7fa3931f7d",
-        "namespace": "9bd512d68e3143909842932ac45a4182"
+        "id": "c42dfeb6caf643718b606d752b54c30b",
+        "namespace": "bfb80547289b477193ce3b14d83cd292"
       }
     ],
     "customAttributes": [
@@ -316,53 +307,71 @@
     ],
     "tags": [
       {
-        "id": "1298"
+        "id": "29088"
       },
       {
-        "id": "1395"
+        "id": "21894"
       },
       {
         "id": "19847"
       },
       {
-        "id": "1370"
-      },
-      {
         "id": "9547"
       },
       {
-        "id": "1117"
+        "id": "9549"
       },
       {
-        "id": "9549"
+        "id": "1264"
+      },
+      {
+        "id": "1296"
+      },
+      {
+        "id": "1298"
+      },
+      {
+        "id": "1299"
+      },
+      {
+        "id": "22776"
+      },
+      {
+        "id": "1146"
+      },
+      {
+        "id": "1370"
+      },
+      {
+        "id": "1183"
       }
     ],
     "catalogNs": {
       "mappings": [
         {
-          "pageSlug": "buried-stars-d7c88c",
+          "pageSlug": "terrascape-2b12b1",
           "pageType": "productHome"
         }
       ]
     },
     "offerMappings": [
       {
-        "pageSlug": "buried-stars-d7c88c",
+        "pageSlug": "terrascape-2b12b1",
         "pageType": "productHome"
       }
     ],
     "price": {
       "totalPrice": {
         "discountPrice": 0,
-        "originalPrice": 3999,
+        "originalPrice": 1699,
         "voucherDiscount": 0,
-        "discount": 3999,
+        "discount": 1699,
         "currencyCode": "USD",
         "currencyInfo": {
           "decimals": 2
         },
         "fmtPrice": {
-          "originalPrice": "$39.99",
+          "originalPrice": "$16.99",
           "discountPrice": "0",
           "intermediatePrice": "0"
         },
@@ -372,8 +381,8 @@
         {
           "appliedRules": [
             {
-              "id": "2144c65e8f94437f889ee8dfc7b9e0aa",
-              "endDate": "2026-10-08T15:00:00.000Z",
+              "id": "5f6ccbf6dff549b7872f950c443a838f",
+              "endDate": "2026-10-15T15:00:00.000Z",
               "discountSetting": {
                 "discountType": "PERCENTAGE"
               }
@@ -387,8 +396,8 @@
         {
           "promotionalOffers": [
             {
-              "startDate": "2026-10-01T15:00:00.000Z",
-              "endDate": "2026-10-08T15:00:00.000Z",
+              "startDate": "2026-10-08T15:00:00.000Z",
+              "endDate": "2026-10-15T15:00:00.000Z",
               "discountSetting": {
                 "discountType": "PERCENTAGE",
                 "discountPercentage": 0
