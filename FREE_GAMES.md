@@ -1,20 +1,22 @@
 # Current Free Epic Games
 
-## [Out of Sight — $14.99 USD](https://store.epicgames.com/p/f350878fcb5242d6851cfe2fa1316e76)
-#### *By The Gang Studio AB*
+## [Bad Cheese — $12.99 USD](https://store.epicgames.com/p/ae5d8fc5541f42eea105f64121dba382)
+#### *By FEARDEMIC sp. z o.o.*
 
-[![Out of Sight](https://cdn1.epicgames.com/spt-assets/6e1bf54cfa6344c89d41e4e7af036ac9/out-of-sight-1l12n.jpg)](https://store.epicgames.com/p/f350878fcb5242d6851cfe2fa1316e76)
+[![Bad Cheese](https://cdn1.epicgames.com/spt-assets/6cbb0e3805c4436bafd028cafff48307/bad-cheese-16hj0.png)](https://store.epicgames.com/p/ae5d8fc5541f42eea105f64121dba382)
 
-You’re Sophie, a young blind girl who sees through her teddy bear’s eyes. Escape your captors and uncover the evil history of the dark mansion you desperately seek to escape in this unique, atmospheric horror puzzle/adventure game.
+Bad Cheese is a psychological horror inspired by the eerie charm of 1920s animation. 
+Step into the tiny paws of a mouse spending the weekend at home with a dysfunctional Dad while Mom's away. 
+Be on your best behavior and KEEP DADDY HAPPY.
 
 ---
 
-## [TerraScape — $16.99 USD](https://store.epicgames.com/p/f229ed53ddba40788e0ab62978e9eaf9)
-#### *By Bitfall Studios GmbH*
+## [Agent A: A puzzle in disguise — $19.99 USD](https://store.epicgames.com/p/agent-a-a-puzzle-in-disguise)
+#### *By Yak & Co*
 
-[![TerraScape](https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-j7p8d.png)](https://store.epicgames.com/p/f229ed53ddba40788e0ab62978e9eaf9)
+[![Agent A: A puzzle in disguise](https://cdn1.epicgames.com/spt-assets/45db4fbe68fe43f4b025dec2014d42e7/agent-a-a-puzzle-in-disguise-3cppl.png)](https://store.epicgames.com/p/agent-a-a-puzzle-in-disguise)
 
-Build gorgeous kingdoms on floating islands by strategically placing buildings in this cozy, medieval City-Puzzler. Discover secret combinations, take on monthly challenges and explore randomly generated maps in various single- and multiplayer game modes.
+A suave secret agent adventure game. Your mission (should you choose to accept) is to infiltrate enemy spy Ruby La Rouge’s secret hideaway and put a stop to her evil plans!
 
 ---
 
