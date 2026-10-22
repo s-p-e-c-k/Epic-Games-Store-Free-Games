@@ -1,22 +1,20 @@
 # Current Free Epic Games
 
-## [Bad Cheese — $12.99 USD](https://store.epicgames.com/p/ae5d8fc5541f42eea105f64121dba382)
-#### *By FEARDEMIC sp. z o.o.*
+## [Sker Ritual — $24.99 USD](https://store.epicgames.com/p/8dbc8d70481d4c0b8412d3aec76a35a1)
+#### *By Skybound Game Studios, Inc.*
 
-[![Bad Cheese](https://cdn1.epicgames.com/spt-assets/6cbb0e3805c4436bafd028cafff48307/bad-cheese-16hj0.png)](https://store.epicgames.com/p/ae5d8fc5541f42eea105f64121dba382)
+[![Sker Ritual](https://cdn1.epicgames.com/spt-assets/43d96f4437e34c87b7eff08831d1b1de/sker-ritual-1tuka.png)](https://store.epicgames.com/p/8dbc8d70481d4c0b8412d3aec76a35a1)
 
-Bad Cheese is a psychological horror inspired by the eerie charm of 1920s animation. 
-Step into the tiny paws of a mouse spending the weekend at home with a dysfunctional Dad while Mom's away. 
-Be on your best behavior and KEEP DADDY HAPPY.
+The round-based co-op survival FPS and spin-off to the award-winning British horror, Maid of Sker. Play solo or up to 4 players to survive the supernatural onslaught of the Quiet Ones.
 
 ---
 
-## [Agent A: A puzzle in disguise — $19.99 USD](https://store.epicgames.com/p/agent-a-a-puzzle-in-disguise)
-#### *By Yak & Co*
+## [Home - A Unique Horror Adventure — $4.99 USD](https://store.epicgames.com/p/ff70f2b02fd842f8961f7729af25cda9)
+#### *By BancyCo*
 
-[![Agent A: A puzzle in disguise](https://cdn1.epicgames.com/spt-assets/45db4fbe68fe43f4b025dec2014d42e7/agent-a-a-puzzle-in-disguise-3cppl.png)](https://store.epicgames.com/p/agent-a-a-puzzle-in-disguise)
+[![Home - A Unique Horror Adventure](https://cdn1.epicgames.com/spt-assets/46fc0cdb9f164a848e916249a8f68fc7/home-1f6qi.png)](https://store.epicgames.com/p/ff70f2b02fd842f8961f7729af25cda9)
 
-A suave secret agent adventure game. Your mission (should you choose to accept) is to infiltrate enemy spy Ruby La Rouge’s secret hideaway and put a stop to her evil plans!
+Home is a unique horror adventure set in a beautifully-realized pixel world. It’s a murder mystery with a twist – because you decide what ultimately happens.
 
 ---
 
