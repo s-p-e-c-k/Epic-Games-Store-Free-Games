@@ -1,20 +1,20 @@
 # Current Free Epic Games
 
-## [Sker Ritual — $24.99 USD](https://store.epicgames.com/p/8dbc8d70481d4c0b8412d3aec76a35a1)
-#### *By Skybound Game Studios, Inc.*
+## [Idle Champions of the Forgotten Realms — $0.00 USD](https://store.epicgames.com/p/idle-champions-of-the-forgotten-realms)
+#### *By Codename Entertainment*
 
-[![Sker Ritual](https://cdn1.epicgames.com/spt-assets/43d96f4437e34c87b7eff08831d1b1de/sker-ritual-1tuka.png)](https://store.epicgames.com/p/8dbc8d70481d4c0b8412d3aec76a35a1)
+[![Idle Champions of the Forgotten Realms](https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1xbn9.jpg)](https://store.epicgames.com/p/idle-champions-of-the-forgotten-realms)
 
-The round-based co-op survival FPS and spin-off to the award-winning British horror, Maid of Sker. Play solo or up to 4 players to survive the supernatural onslaught of the Quiet Ones.
+Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.
 
 ---
 
-## [Home - A Unique Horror Adventure — $4.99 USD](https://store.epicgames.com/p/ff70f2b02fd842f8961f7729af25cda9)
-#### *By BancyCo*
+## [Sorry We're Closed — $24.99 USD](https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283)
+#### *By Akupara Games*
 
-[![Home - A Unique Horror Adventure](https://cdn1.epicgames.com/spt-assets/46fc0cdb9f164a848e916249a8f68fc7/home-1f6qi.png)](https://store.epicgames.com/p/ff70f2b02fd842f8961f7729af25cda9)
+[![Sorry We're Closed](https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png)](https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283)
 
-Home is a unique horror adventure set in a beautifully-realized pixel world. It’s a murder mystery with a twist – because you decide what ultimately happens.
+Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.
 
 ---
 
